@@ -1,0 +1,550 @@
+{
+ "source": {
+  "url": "https://www.instagram.com/p/DgBT5zFBLag/",
+  "author": "aantoinelee",
+  "views": 288000,
+  "outlier_x": 38,
+  "duration_s": 86.91,
+  "language": "en",
+  "size": "540x960"
+ },
+ "people": {
+  "has_live_person": true,
+  "has_partial_person": true,
+  "has_animated_character": false,
+  "notes": "Автор-студент в бордовом свитшоте с белым гербом вуза сидит в кресле в светлом лобби кампуса, на коленях открытая книга, говорит в камеру (≈60 % времени на весь кадр, ≈25 % в нижней зоне сплита — тот же план, кадрированный крупнее). B-roll: другой парень печатает на ноутбуке (6–7 с), ноутбук у окна (69,5–71,5 с), общий план у панорамного окна (79,5–82 с). Фото с хакатонов (8–12,5 с)."
+ },
+ "format": {
+  "layout": "чередование full (человек на весь кадр) и split_top_screen_bottom_person; плюс screen-only и B-roll",
+  "split_ratio": "58/42 (верх 0–555 px из 960: чёрный фон #000, окно экрана ≈ x20–520 y150–465, подпись y≈490; низ 555–960 — человек крупно, голова у верхнего края зоны)",
+  "captions": "белый гротеск (SF/Inter Medium ≈26 px в 540×960 → 52 px в 1080), 1–5 слов строкой, ключевые слова жёлтым #F2F24A; в full — над головой (y≈160) или на груди (y≈520), в split — между экраном и человеком (y≈490)",
+  "palette": [
+   "#000000",
+   "#080808",
+   "#FFFFFF",
+   "#F2F24A",
+   "#E8F030",
+   "#9B1B30 (свитшот)",
+   "#1F2A1F (тёмно-зелёные сайты)"
+  ],
+  "fonts": "акценты — жёлтый курсив с засечками, тяжёлый (Playfair Display Black Italic-подобный) 80–110 px в 540×960, с лёгкой тенью; подписи — гротеск белый; иконки приложений — белые скруглённые плашки 50×50 с подписью 8 px",
+  "transitions": "жёсткие склейки на словах; один белый флеш (38,0 с); акценты появляются pop-in за 0,1–0,15 с; рамки/стрелки на экране рисуются по словам",
+  "pace": "≈40 смен плана в минуту (смена кадра каждые 1–2,5 с), речь ≈4 слова/с"
+ },
+ "transcript": [
+  {
+   "start": 0,
+   "end": 6.72,
+   "text": "If you use Claude Code like this, but you keep seeing other people run this, these are the seven tools I use around Claude Code every single day."
+  },
+  {
+   "start": 6.8,
+   "end": 12.72,
+   "text": "This is the setup I've used to win some of the biggest hackathons run by Cursor and Google, where I won over six figures in AI credit."
+  },
+  {
+   "start": 12.8,
+   "end": 16.64,
+   "text": "Number one, you're gonna wanna use cmux, which is the terminal built for coding agents."
+  },
+  {
+   "start": 16.72,
+   "end": 23.44,
+   "text": "It makes it super easy to multitask with panes and workspaces to organize your sessions, and it puts this ring around any that needs your attention."
+  },
+  {
+   "start": 23.6,
+   "end": 29.92,
+   "text": "Number two is I use Linear to organize tasks and projects, but it's always my agents reading and writing to it through the MCP."
+  },
+  {
+   "start": 29.92,
+   "end": 34.72,
+   "text": "The most important thing is that it creates a shared context for every agent across all of my repos."
+  },
+  {
+   "start": 34.8,
+   "end": 42.8,
+   "text": "Third is the Playwright MCP, which is essentially giving your agent eyes, because now it can open up your website, click through it, and actually test that things are working as expected."
+  },
+  {
+   "start": 42.96,
+   "end": 45.76,
+   "text": "Number four is to make sure you have an AI code reviewer."
+  },
+  {
+   "start": 46,
+   "end": 50.4,
+   "text": "Use something like CodeRabbit or Greptile, which review each change against your whole code base."
+  },
+  {
+   "start": 50.72,
+   "end": 59.04,
+   "text": "Number five, I like using the Mobbin MCP, which lets Claude pull designs from the most successful apps, see what they do well, and bring those ideas into your own UI."
+  },
+  {
+   "start": 59.12,
+   "end": 64.08,
+   "text": "Number six, if you want your website to look less generic, you need to be creating your own custom assets."
+  },
+  {
+   "start": 64.08,
+   "end": 66.24,
+   "text": "Connect Claude to fal AI or Higgsfield."
+  },
+  {
+   "start": 66.4,
+   "end": 71.28,
+   "text": "And number seven is to run agentic work in the cloud, because everything so far needs your laptop to be open."
+  },
+  {
+   "start": 71.36,
+   "end": 77.6,
+   "text": "You can run Claude Code headless on a virtual private server, and a Hermes agent connects it to the messaging apps that you already use."
+  },
+  {
+   "start": 77.6,
+   "end": 81.76,
+   "text": "I'd recommend this for any agentic workflow you find yourself running on a recurring basis."
+  },
+  {
+   "start": 81.92,
+   "end": 84.96,
+   "text": "I'll be breaking down how to set up each of these, so follow for more AI tips."
+  },
+  {
+   "start": 85.12,
+   "end": 86.88,
+   "text": "And comment setup if you want the full guide."
+  }
+ ],
+ "hook": {
+  "start": 0.0,
+  "end": 6.72,
+  "original_text": "If you use Claude Code like this, but you keep seeing other people run this, these are the seven tools I use around Claude Code every single day.",
+  "ru_text": "Если ты пользуешься Claude Code вот так, а у других постоянно видишь вот такое, — вот семь инструментов, которые я каждый день использую вместе с Claude Code.",
+  "why_it_hooks": "контраст «у тебя пустой терминал — у других экран из десятка панелей» показан за 2 с (зависть/FOMO); сразу обещание конкретного числа — «7 tools» крупным жёлтым; узнаваемый продукт Claude Code в первых словах"
+ },
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "shot_type": "split",
+   "on_screen": "верх: окно Claude Code на чёрном (простой ввод «build me a $1M startup»); низ: парень по грудь, жест рукой",
+   "text_on_screen": "",
+   "speech": "If you use Claude code like this but you keep",
+   "camera": "статично",
+   "purpose": "хук"
+  },
+  {
+   "start": 2.0,
+   "end": 3.0,
+   "shot_type": "split",
+   "on_screen": "верх сменяется на многооконный рабочий стол (сайдбар + 3 колонки текста); низ тот же",
+   "text_on_screen": "",
+   "speech": "seeing other people run",
+   "camera": "статично, жёсткая смена экрана",
+   "purpose": "хук: контраст «вот так / вот такое»"
+  },
+  {
+   "start": 3.0,
+   "end": 3.5,
+   "shot_type": "split",
+   "on_screen": "кадр «run this» жёлтым курсивом под экраном",
+   "text_on_screen": "run this",
+   "speech": "this",
+   "camera": "статично",
+   "purpose": "хук: удар"
+  },
+  {
+   "start": 3.5,
+   "end": 6.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр сидит в кресле с открытой книгой; сверху белое «these are the», жёлтый курсив «7 tools» (4.0), затем иконка Claude Code в белой плашке (5.0)",
+   "text_on_screen": "these are the / 7 tools",
+   "speech": "these are the seven tools I use around Claude code every",
+   "camera": "лёгкий наезд",
+   "purpose": "хук: обещание списка"
+  },
+  {
+   "start": 6.0,
+   "end": 6.5,
+   "shot_type": "person_partial",
+   "on_screen": "B-roll: парень в чёрном печатает на ноутбуке в кафе (крупно руки и лицо сбоку)",
+   "text_on_screen": "every single",
+   "speech": "single day",
+   "camera": "ручная камера",
+   "purpose": "хук: «каждый день»"
+  },
+  {
+   "start": 6.5,
+   "end": 7.0,
+   "shot_type": "person_partial",
+   "on_screen": "B-roll: руки на клавиатуре, красная кофта, сбоку",
+   "text_on_screen": "every single day.",
+   "speech": "This is",
+   "camera": "ручная камера",
+   "purpose": "хук: «каждый день»"
+  },
+  {
+   "start": 7.0,
+   "end": 8.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр, подпись «This is a setup / I've used»",
+   "text_on_screen": "",
+   "speech": "the setup I've used to win",
+   "camera": "статично",
+   "purpose": "доказательство"
+  },
+  {
+   "start": 8.0,
+   "end": 10.0,
+   "shot_type": "motion_only",
+   "on_screen": "ч/б толпа/зал как фон, сверху 2 наклонённые фото-карточки с белой рамкой (сцена хакатона, групповое фото); жёлтый курсив «biggest hackathons»",
+   "text_on_screen": "biggest hackathons",
+   "speech": "some of the biggest hackathons run by Cursor",
+   "camera": "фото въезжают с поворотом",
+   "purpose": "доказательство"
+  },
+  {
+   "start": 10.0,
+   "end": 10.5,
+   "shot_type": "person_live",
+   "on_screen": "фото на фоне логотипа Google Cloud + иконка Cursor в белой плашке",
+   "text_on_screen": "Cursor",
+   "speech": "and Google",
+   "camera": "статично",
+   "purpose": "доказательство"
+  },
+  {
+   "start": 10.5,
+   "end": 12.5,
+   "shot_type": "motion_only",
+   "on_screen": "верх: фото сцены выступления на тёмно-сером, низ размыт; жёлтый курсив «six figures», «in AI»",
+   "text_on_screen": "over / six figures / in AI",
+   "speech": "where I won over six figures in AI credit",
+   "camera": "статично",
+   "purpose": "доказательство: цифра"
+  },
+  {
+   "start": 12.5,
+   "end": 15.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; жёлтый курсив «#1» слева сверху (13.0), затем «you're gonna want to use» + иконка терминала + «cmux» (14.0)",
+   "text_on_screen": "#1 / cmux",
+   "speech": "Number one you're gonna wanna use cmux which",
+   "camera": "статично",
+   "purpose": "шаг 1"
+  },
+  {
+   "start": 15.0,
+   "end": 23.5,
+   "shot_type": "split",
+   "on_screen": "верх: окно терминала cmux с панелями; жёлтая рамка вокруг панели (18.5), вокруг сайдбара воркспейсов (19.0–20.5), на 20.5 справа выезжает карточка; жёлтая стрелка на кольцо внимания (21.5–23.0); низ: парень крупно",
+   "text_on_screen": "panes / workspaces / ring",
+   "speech": "is the terminal built for coding agents It makes it super easy to multitask with panes and workspaces to organize your sessions and it puts this ring around any that needs your attention",
+   "camera": "статично, рамки и стрелка анимированы",
+   "purpose": "шаг 1: доказательство на экране"
+  },
+  {
+   "start": 23.5,
+   "end": 25.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр, показывает 2 пальца; «I use» + иконка Linear + жёлтый курсив «Linear» (24.5)",
+   "text_on_screen": "Linear",
+   "speech": "Number two is I use Linear",
+   "camera": "статично",
+   "purpose": "шаг 2"
+  },
+  {
+   "start": 25.0,
+   "end": 27.0,
+   "shot_type": "split",
+   "on_screen": "верх: список задач Linear (тёмная тема); низ: парень",
+   "text_on_screen": "tasks / projects",
+   "speech": "to organize tasks and projects but",
+   "camera": "статично",
+   "purpose": "шаг 2"
+  },
+  {
+   "start": 27.0,
+   "end": 30.0,
+   "shot_type": "screen_capture",
+   "on_screen": "только экран: список issues Linear с агентами, ниже чёрное; подписи «my agents», «MCP.» жёлтым",
+   "text_on_screen": "my agents / MCP.",
+   "speech": "it's always my agents reading and writing to it through the MCP The most",
+   "camera": "лёгкий скролл",
+   "purpose": "шаг 2: доказательство"
+  },
+  {
+   "start": 30.0,
+   "end": 31.5,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр, «The most important thing is that it»",
+   "text_on_screen": "",
+   "speech": "important thing is that it creates",
+   "camera": "статично",
+   "purpose": "шаг 2: главное"
+  },
+  {
+   "start": 31.5,
+   "end": 35.0,
+   "shot_type": "split",
+   "on_screen": "верх: схема на чёрном — жёлтый курсив «shared context», в центре иконка Linear, линии к 4 чипам web/api/ios/infra (33.0); низ: парень",
+   "text_on_screen": "shared context / repos.",
+   "speech": "a shared context for every agent across all of my repos Third",
+   "camera": "линии и чипы появляются по словам",
+   "purpose": "шаг 2: схема"
+  },
+  {
+   "start": 35.0,
+   "end": 38.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр: «the» + иконка Playwright + жёлтый «Playwright» (35.5), «MCP,» жёлтым; затем «essentially giving your agent» + жёлтый «eyes» (37.0)",
+   "text_on_screen": "Playwright / eyes",
+   "speech": "is the Playwright MCP which is essentially giving your agent eyes",
+   "camera": "статично",
+   "purpose": "шаг 3"
+  },
+  {
+   "start": 38.0,
+   "end": 38.5,
+   "shot_type": "motion_only",
+   "on_screen": "белая вспышка-переход",
+   "text_on_screen": "",
+   "speech": "because",
+   "camera": "вспышка",
+   "purpose": "переход"
+  },
+  {
+   "start": 38.5,
+   "end": 43.0,
+   "shot_type": "split",
+   "on_screen": "верх: сайт (зелёный лендинг) → форма регистрации → дашборд с вопросом → модалка; клики по словам; низ: парень",
+   "text_on_screen": "website, / click through / test",
+   "speech": "now it can open up your website click through it and actually test that things are working as expected",
+   "camera": "экран меняется по словам",
+   "purpose": "шаг 3: доказательство"
+  },
+  {
+   "start": 43.0,
+   "end": 46.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; жёлтый «#4» (43.0), затем «an» + жёлтый в 2 строки «AI code reviewer» (44.5)",
+   "text_on_screen": "#4 / AI code reviewer",
+   "speech": "Number four is to make sure you have an AI code reviewer",
+   "camera": "статично",
+   "purpose": "шаг 4"
+  },
+  {
+   "start": 46.0,
+   "end": 48.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; иконки CodeRabbit слева и Greptile справа в плашках (46.5, 47.5), имена жёлтым",
+   "text_on_screen": "CodeRabbit / Greptile",
+   "speech": "Use something like CodeRabbit or Greptile which",
+   "camera": "статично",
+   "purpose": "шаг 4"
+  },
+  {
+   "start": 48.0,
+   "end": 50.5,
+   "shot_type": "motion_only",
+   "on_screen": "ч/б фон ноутбук сверху, карточка PR «Add checkout flow #128» с диффом, появляется комментарий coderabbit (49.0); жёлтое «whole codebase.»",
+   "text_on_screen": "whole codebase.",
+   "speech": "review each change against your whole code base",
+   "camera": "статично",
+   "purpose": "шаг 4: доказательство"
+  },
+  {
+   "start": 50.5,
+   "end": 51.5,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр «Number five»",
+   "text_on_screen": "",
+   "speech": "Number five I",
+   "camera": "статично",
+   "purpose": "шаг 5"
+  },
+  {
+   "start": 51.5,
+   "end": 53.0,
+   "shot_type": "split",
+   "on_screen": "верх: галерея экранов мобильных приложений Mobbin; жёлтое «Mobbin MCP,»; низ: парень",
+   "text_on_screen": "Mobbin MCP,",
+   "speech": "like using the Mobbin MCP",
+   "camera": "статично",
+   "purpose": "шаг 5"
+  },
+  {
+   "start": 53.0,
+   "end": 59.0,
+   "shot_type": "screen_capture",
+   "on_screen": "только экран (низ тёмный градиент): документ с референсами (ряд экранов), потом крупно карточки paywall-экранов (57.0–59.0)",
+   "text_on_screen": "most successful apps, / own UI.",
+   "speech": "which lets Claude pull designs from the most successful apps see what they do well and bring those ideas into your own UI",
+   "camera": "скролл/наезд",
+   "purpose": "шаг 5: доказательство"
+  },
+  {
+   "start": 59.0,
+   "end": 60.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр, жёлтый «#6» слева сверху",
+   "text_on_screen": "#6",
+   "speech": "Number six if you",
+   "camera": "статично",
+   "purpose": "шаг 6"
+  },
+  {
+   "start": 60.0,
+   "end": 64.0,
+   "shot_type": "split",
+   "on_screen": "верх: лендинг с маскотом-иллюстрацией, наезд на иллюстрацию (62.0); жёлтый курсив «custom assets» (63.0); низ: парень",
+   "text_on_screen": "generic / custom assets",
+   "speech": "want your website to look less generic you need to be creating your own custom assets",
+   "camera": "наезд",
+   "purpose": "шаг 6"
+  },
+  {
+   "start": 64.0,
+   "end": 65.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр «Connect Claude» + иконка Claude (64.5)",
+   "text_on_screen": "",
+   "speech": "Connect Claude to",
+   "camera": "статично",
+   "purpose": "шаг 6"
+  },
+  {
+   "start": 65.0,
+   "end": 66.5,
+   "shot_type": "split",
+   "on_screen": "верх: лента сгенерированных картинок, иконки fal и Higgsfield в плашках; «fal AI or Higgsfield.» жёлтым; низ: парень",
+   "text_on_screen": "fal AI or Higgsfield.",
+   "speech": "Val AI or Hix Field And",
+   "camera": "статично",
+   "purpose": "шаг 6"
+  },
+  {
+   "start": 66.5,
+   "end": 69.5,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; жёлтый «#7» (66.5); «run agentic work» + жёлтый «in the cloud» (68.5)",
+   "text_on_screen": "#7 / in the cloud",
+   "speech": "number seven is to run agentic work in the cloud because everything so",
+   "camera": "статично",
+   "purpose": "шаг 7"
+  },
+  {
+   "start": 69.5,
+   "end": 71.5,
+   "shot_type": "person_partial",
+   "on_screen": "B-roll: ноутбук на столе у окна, на экране терминалы, за окном машина",
+   "text_on_screen": "laptop to be open.",
+   "speech": "far needs your laptop to be open You can",
+   "camera": "статично",
+   "purpose": "шаг 7: боль"
+  },
+  {
+   "start": 71.5,
+   "end": 74.0,
+   "shot_type": "split",
+   "on_screen": "верх: терминал «vps — headless»: «$ ssh agent@vps», «$ claude -p \"ship the nightly tasks\" &», «● running in the background», «laptop: closed · agent: still working»; низ: парень",
+   "text_on_screen": "headless / private",
+   "speech": "run Claude code headless on a virtual private server",
+   "camera": "строки печатаются",
+   "purpose": "шаг 7: решение"
+  },
+  {
+   "start": 74.0,
+   "end": 78.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; иконка Hermes в плашке сверху (74.5), вокруг выезжают иконки Telegram, WhatsApp, Discord, Messages (76.0)",
+   "text_on_screen": "Hermes / messaging apps",
+   "speech": "and a Hermes agent connects it to the messaging apps that you already use I'd recommend",
+   "camera": "статично",
+   "purpose": "шаг 7"
+  },
+  {
+   "start": 78.0,
+   "end": 79.5,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр «I'd recommend this for any agentic workflow»",
+   "text_on_screen": "",
+   "speech": "this for any agentic workflow",
+   "camera": "статично",
+   "purpose": "шаг 7: совет"
+  },
+  {
+   "start": 79.5,
+   "end": 82.0,
+   "shot_type": "person_partial",
+   "on_screen": "B-roll: общий план, парень за столиком у панорамного окна с ноутбуком; жёлтый курсив «recurring basis» (80.5)",
+   "text_on_screen": "recurring basis",
+   "speech": "you find yourself running on a recurring basis I'll",
+   "camera": "статично",
+   "purpose": "шаг 7: совет"
+  },
+  {
+   "start": 82.0,
+   "end": 84.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр «I'll be breaking down how to set up each of these»",
+   "text_on_screen": "",
+   "speech": "be breaking down how to set up each of these so follow",
+   "camera": "статично",
+   "purpose": "CTA"
+  },
+  {
+   "start": 84.0,
+   "end": 85.0,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр: «so» + жёлтый курсив «follow», «for more AI tips.»",
+   "text_on_screen": "follow",
+   "speech": "for more AI tips",
+   "camera": "статично",
+   "purpose": "CTA: подписка"
+  },
+  {
+   "start": 85.0,
+   "end": 86.9,
+   "shot_type": "person_live",
+   "on_screen": "на весь кадр; сверху поле комментария Instagram с аватаркой, печатается «SETUP» (85.5–86.5)",
+   "text_on_screen": "SETUP",
+   "speech": "And comment setup if you want the full guide",
+   "camera": "статично",
+   "purpose": "CTA: слово в комментарии"
+  }
+ ],
+ "structure": [
+  "хук: контраст экранов + «7 инструментов»",
+  "доказательство: хакатоны, шестизначные призы",
+  "#1 терминал для агентов (cmux)",
+  "#2 Linear через MCP — общий контекст",
+  "#3 Playwright MCP — глаза агента",
+  "#4 AI-ревьюер кода",
+  "#5 Mobbin MCP — дизайн-референсы",
+  "#6 свои ассеты (fal, Higgsfield)",
+  "#7 агенты в облаке headless + мессенджеры",
+  "CTA: follow + слово SETUP в комментарии"
+ ],
+ "why_viral": [
+  "0–3 с: визуальный контраст двух экранов — зритель узнаёт себя в «простом» и хочет «как у них»",
+  "3,5–4,5 с: число «7 tools» крупным жёлтым — понятная длина и причина досмотреть до #7",
+  "7–12,5 с: соцдоказательство (крупнейшие хакатоны Cursor и Google, six figures) с фото — доверие к списку",
+  "весь ролик: смена плана каждые 1–2,5 с, жёлтые акценты на ключевых словах, экраны доказывают каждый пункт",
+  "каждый пункт = конкретный инструмент с иконкой — ролик хочется сохранить",
+  "84–86,9 с: двойной CTA (follow + комментарий SETUP за гайдом) — комментарии поднимают охват"
+ ],
+ "cta": {
+  "type": "comment_keyword",
+  "original_text": "I'll be breaking down how to set up each of these, so follow for more AI tips. And comment setup if you want the full guide.",
+  "our_text": "Как настроить каждый — разберу в следующих роликах, так что подписывайся на меня. И напиши в комментариях «ИИ», если хочешь полный гайд. (на экране @paveldumbrao + поле комментария с «ИИ»)"
+ },
+ "remake_plan": {
+  "route": "openmotion+avatar",
+  "segments_map": "person_live → аватар Павла: мастер-кадр Nano Banana (Павел в кресле в светлом лобби, бордовый свитшот без надписей, блокнот) → базовые клипы Omni по ~10 с → липсинк SCAPI video_digital_humans под готовую дорожку TTS Павла; в split — тот же клип кадрирован крупнее в нижней зоне 42 %. person_partial (B-roll) → короткие клипы Omni без речи (руки на ноутбуке, ноутбук у окна, общий план у окна). motion_only / screen_capture → OpenMotion кодом: наши экраны (сессии Claude Code, Obsidian, Playwright, ревью Codex, дизайн-скиллы, генерация, VPS+Telegram). Акценты — жёлтый курсив с засечками (кириллица), титры белым по словам голоса.",
+  "est_cost_rub": 255
+ }
+}

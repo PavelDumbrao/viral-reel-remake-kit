@@ -1,0 +1,278 @@
+{
+  "source": {
+    "url": "https://www.instagram.com/p/DfdHrHOKwO9/",
+    "author": "david_knowsai",
+    "views": 409000,
+    "outlier_x": 18,
+    "duration_s": 41.59,
+    "language": "en",
+    "size": "540x960",
+    "fps": 24
+  },
+  "people": {
+    "has_live_person": true,
+    "has_partial_person": false,
+    "has_animated_character": false,
+    "notes": "Нижняя половина весь ролик — живой автор с подкаст-микрофоном на стреле (микрофон из левого нижнего угла, ниже рта), дом, вечер. Два ракурса камеры чередуются строго на начале каждого нового эффекта (резы 5.88, 10.50, 14.71, 20.08, 24.92, 30.92, 35.96 с): A — тёмный фон, бирюзовая штора слева, тёплая лампа справа, бежевый свитер; B — ближе, книжные полки и картина с жёлтыми кругами. В верхней зоне в эффектах — тот же автор в другом дубле (голубая рубашка, светлая комната с полками, без микрофона) — «загруженное видео»."
+  },
+  "format": {
+    "layout": "split_top_screen_bottom_person",
+    "split_ratio": "50/50 (граница y=480 из 960; у нас y=960 из 1920)",
+    "captions": "Одно слово капсом в тёмно-серой плашке (#3A3A3A, белый жирный гротеск ~17 px из 960, радиус 4) по центру на y≈435/960 — внизу верхней зоны, над стыком. Меняется на каждом слове речи. Плюс белая пилюля-заголовок (чёрный жирный ~20 px, радиус 8) на стыке зон y≈460–500: 0–5.9 с «One clip, 7 edits in Claude Code 🤯», 36–41.6 с «Follow and comment “effects” and I’ll DM you».",
+    "palette": [
+      "#FAFCFC фон окна",
+      "#F7F9F9 сайдбар",
+      "#D97757 оранжевый Claude (кнопка, /effects)",
+      "#3A3A3A плашка слова",
+      "#FFFFFF пилюля",
+      "#1A1A1A текст",
+      "#22C55E галочки/тумблеры",
+      "#4F46E5 кнопка Follow (CTA)"
+    ],
+    "fonts": "Окно — системный SF Pro/Inter (Regular 14–16 px из 540), слово-плашка и пилюля — жирный гротеск; в эффектах match-cut — газетные антиквы (Lantern, SIGNAL, Morning Circuit), подсветка слова Claude жёлтым маркером.",
+    "transitions": "Нижняя камера — жёсткий рез на каждый новый эффект. Верх: окно → эффект быстрым увеличением результата из чата на весь верх (~0.12 с, 4.46–4.58), эффект → снова пустое окно жёстким резом. Match-cut: смена газетных полос каждые ~0.16 с, слово «Claude» стоит на месте.",
+    "pace": "Нижняя камера 8 планов за 41.6 с (≈11.5/мин); верх — смена состояния окна каждые 0.5 с, эффект на весь верх 7 раз; слово-плашка меняется ~3 раза в секунду."
+  },
+  "transcript": [
+    {
+      "start": 0.16,
+      "end": 5.76,
+      "text": "If you upload your video into Claude Code and type slash effects glass widgets, it adds floating glass panels around you."
+    },
+    {
+      "start": 6.0,
+      "end": 10.4,
+      "text": "If you type slash effects orbit, it makes your video thumbnails circle around your head."
+    },
+    {
+      "start": 10.64,
+      "end": 14.64,
+      "text": "If you type slash effects spotlight, it darkens the background while keeping you lit."
+    },
+    {
+      "start": 14.88,
+      "end": 19.92,
+      "text": "If you type slash effects to do, it adds a checklist beside you that ticks off as you talk."
+    },
+    {
+      "start": 20.24,
+      "end": 24.8,
+      "text": "If you type slash effects timeline, it adds an editing timeline with a glowing playhead."
+    },
+    {
+      "start": 25.04,
+      "end": 30.8,
+      "text": "If you type slash effects match cut, it creates fast cuts between news pages with the same word staying locked in place."
+    },
+    {
+      "start": 30.96,
+      "end": 35.92,
+      "text": "And if you type slash effects apple toggles, it adds iPhone style switches that turn on underneath your face."
+    },
+    {
+      "start": 36.16,
+      "end": 37.92,
+      "text": "Want the skill and all the commands?"
+    },
+    {
+      "start": 38.08,
+      "end": 41.36,
+      "text": "Follow me and comment \"effects\" and I'll send you the setup guide."
+    }
+  ],
+  "hook": {
+    "start": 0.0,
+    "end": 5.88,
+    "original_text": "If you upload your video into Claude Code and type slash effects glass widgets, it adds floating glass panels around you.",
+    "ru_text": "Если загрузить своё видео в Claude Code и набрать /effects glass-widgets, он добавит вокруг тебя парящие стеклянные панели.",
+    "why_it_hooks": "С первого кадра видно действие: файл перетаскивают в знакомое окно Claude Code (0–1 с), набирается slash-команда — зритель узнаёт интерфейс и ждёт результата; уже на 4.5 с обещание исполнено на его же лице (стеклянные карточки 36 эффектов, 197K, 4K). Пилюля «One clip, 7 edits» сразу задаёт счётчик — досматривают до седьмого."
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.46,
+      "shot_type": "split",
+      "on_screen": "Верх: светлое окно Claude (Chat|Code), миниатюра david-talking.mp4 перетаскивается в поле ввода (0–1), файл прикреплён, курсор; 2.5 «/ef», 3.0 выпадающий список /effects → glass-widgets, glitch, grain; 3.5 «/effects glass-widgets»; 4.0 «Editing…» с пиксельной сеткой-заглушкой. Низ: ракурс A, говорит в микрофон.",
+      "text_on_screen": "One clip, 7 edits in Claude Code 🤯 + слово-плашка",
+      "speech": "If you upload your video into Claude Code and type slash effects glass widgets, it adds",
+      "camera": "низ статично; верх — интерфейс",
+      "purpose": "хук"
+    },
+    {
+      "start": 4.46,
+      "end": 5.88,
+      "shot_type": "split",
+      "on_screen": "Верх: его видео целиком, вокруг стеклянные карточки: «Claude 36 effects · one clip», «Top reels 197K» со столбиками, «Rendering 4K render 64→77%», карточка профиля, круг «4K render», плашка «Edited by Claude».",
+      "text_on_screen": "GLASS / PANELS / YOU",
+      "speech": "floating glass panels around you",
+      "camera": "лёгкий дрейф карточек",
+      "purpose": "доказательство 1 (glass-widgets)"
+    },
+    {
+      "start": 5.88,
+      "end": 8.79,
+      "shot_type": "split",
+      "on_screen": "Верх: снова окно; 6.5 «/» — меню команд (/effects, /init, /review), 7.0 «/effects », 7.5 «/effects orbit», 8.0 Editing с сеткой, 8.5 готовый ролик-миниатюра в чате. Низ: ракурс B.",
+      "text_on_screen": "слово-плашка",
+      "speech": "If you type slash effects orbit, it makes your video",
+      "camera": "низ рез на новый ракурс",
+      "purpose": "шаг 2 — ввод команды"
+    },
+    {
+      "start": 8.79,
+      "end": 10.5,
+      "shot_type": "split",
+      "on_screen": "Верх: его видео, вокруг головы по орбите летают вертикальные миниатюры его роликов (TODO, SWITCHES, ONE CLIP, EDITS, CLAUDE) с перспективой.",
+      "text_on_screen": "THUMBNAILS / AROUND / HEAD",
+      "speech": "thumbnails circle around your head",
+      "camera": "орбита миниатюр",
+      "purpose": "доказательство 2 (orbit)"
+    },
+    {
+      "start": 10.5,
+      "end": 13.17,
+      "shot_type": "split",
+      "on_screen": "Окно: меню команд, «/effects spotlight», Editing, готовое видео в чате увеличивается. Низ: ракурс A.",
+      "text_on_screen": "слово-плашка",
+      "speech": "If you type slash effects spotlight, it darkens the",
+      "camera": "рез",
+      "purpose": "шаг 3 — ввод"
+    },
+    {
+      "start": 13.17,
+      "end": 14.71,
+      "shot_type": "split",
+      "on_screen": "Верх: фон чёрный, он в луче света, над головой неоновая розовая надпись CLAUDE.",
+      "text_on_screen": "WHILE / YOU",
+      "speech": "background while keeping you lit",
+      "camera": "статично",
+      "purpose": "доказательство 3 (spotlight)"
+    },
+    {
+      "start": 14.71,
+      "end": 17.58,
+      "shot_type": "split",
+      "on_screen": "Окно: «/» меню (/effects, /export), «/effects todo», Editing. Низ: ракурс B.",
+      "text_on_screen": "слово-плашка",
+      "speech": "If you type slash effects to do, it adds a",
+      "camera": "рез",
+      "purpose": "шаг 4 — ввод"
+    },
+    {
+      "start": 17.58,
+      "end": 20.08,
+      "shot_type": "split",
+      "on_screen": "Верх: его видео, поверх тёмная карточка «Claude is editing your clip 0→5 of 5»: Found your face / Cut you out of the room / Put the text behind you / Graded the colour / Rendered in 4K — пункты загораются зелёными галочками по ходу речи.",
+      "text_on_screen": "CHECKLIST / YOU / THAT / OFF / TALK",
+      "speech": "checklist beside you that ticks off as you talk",
+      "camera": "статично",
+      "purpose": "доказательство 4 (todo)"
+    },
+    {
+      "start": 20.08,
+      "end": 22.96,
+      "shot_type": "split",
+      "on_screen": "Окно: меню, «/effects timeline», Editing, готовое видео с плеером 0:00/0:12. Низ: ракурс A.",
+      "text_on_screen": "слово-плашка",
+      "speech": "If you type slash effects timeline, it adds an",
+      "camera": "рез",
+      "purpose": "шаг 5 — ввод"
+    },
+    {
+      "start": 22.96,
+      "end": 24.92,
+      "shot_type": "split",
+      "on_screen": "Верх: заголовок «Claude renders it» (курсив розовый), под ним фиолетовый монтажный таймлайн (дорожки CLIP/CAPTIONS/GRADE/AUDIO/RENDER, светящаяся головка, 65→100%), ниже его видео.",
+      "text_on_screen": "TIMELINE / WITH / GLOWING / PLAYHEAD",
+      "speech": "editing timeline with a glowing playhead",
+      "camera": "головка едет",
+      "purpose": "доказательство 5 (timeline)"
+    },
+    {
+      "start": 24.92,
+      "end": 27.5,
+      "shot_type": "split",
+      "on_screen": "Окно: меню, «/effects match-cut», Editing. Низ: ракурс B.",
+      "text_on_screen": "слово-плашка",
+      "speech": "If you type slash effects match cut, it creates",
+      "camera": "рез",
+      "purpose": "шаг 6 — ввод"
+    },
+    {
+      "start": 27.5,
+      "end": 30.92,
+      "shot_type": "split",
+      "on_screen": "Верх: быстрые склейки (~0.16 с) газетных/журнальных полос (терминал pixel_ledger, Lantern, SIGNAL, Morning Circuit, Tech Courier) с его фото, слово «Claude» с жёлтым маркером стоит на одном месте; в конце — он крупно, «Claude» жёлтой плашкой поверх груди.",
+      "text_on_screen": "CUTS / NEWS / PAGES / SAME / STAYING / LOCKED / PLACE",
+      "speech": "fast cuts between news pages with the same word staying locked in place",
+      "camera": "монтаж по 4 кадра",
+      "purpose": "доказательство 6 (match-cut)"
+    },
+    {
+      "start": 30.92,
+      "end": 34.04,
+      "shot_type": "split",
+      "on_screen": "Окно: меню, «/effects apple-toggles», Editing, готовое видео. Низ: ракурс A.",
+      "text_on_screen": "слово-плашка",
+      "speech": "And if you type slash effects apple toggles, it adds iPhone",
+      "camera": "рез",
+      "purpose": "шаг 7 — ввод"
+    },
+    {
+      "start": 34.04,
+      "end": 35.96,
+      "shot_type": "split",
+      "on_screen": "Верх: его видео, внизу стеклянная панель с тремя тумблерами iOS: Good lighting, Main character, Edited by Claude — включаются по очереди зелёным.",
+      "text_on_screen": "SWITCHES / TURN / UNDERNEATH / FACE",
+      "speech": "style switches that turn on underneath your face",
+      "camera": "статично",
+      "purpose": "доказательство 7 (toggles)"
+    },
+    {
+      "start": 35.96,
+      "end": 41.59,
+      "shot_type": "split",
+      "on_screen": "Верх: белая карточка «Claude video effects · skill + all commands», чипы The /effects skill / All commands / Setup guide появляются по словам; 1 Follow @david_knowsai [Follow → Following, курсор кликает], 2 Comment — в поле печатается «effects», галочка, Post; «I’ll send you the setup guide». Низ: ракурс B.",
+      "text_on_screen": "Follow and comment “effects” and I’ll DM you",
+      "speech": "Want the skill and all the commands? Follow me and comment effects and I'll send you the setup guide.",
+      "camera": "курсор",
+      "purpose": "CTA"
+    }
+  ],
+  "structure": [
+    "хук: загрузил видео + команда + результат за 4.5 с",
+    "эффект 2 orbit",
+    "эффект 3 spotlight",
+    "эффект 4 todo",
+    "эффект 5 timeline",
+    "эффект 6 match-cut",
+    "эффект 7 apple-toggles",
+    "CTA: подпишись + коммент-слово"
+  ],
+  "why_viral": [
+    "0–4.5 с: узнаваемый интерфейс Claude Code + slash-команда — понятно «как», а результат на его же лице показан уже на 4.5 с.",
+    "Счётчик «One clip, 7 edits» (0–5.9 с) обещает список — досмотр до конца.",
+    "Жёсткий повторяющийся цикл ~4.5–5.5 с: «If you type …» → набор → вау-картинка; каждый цикл ломает ожидание новым визуалом (орбита 9 с, неон 13 с, чек-лист 17.6 с, таймлайн 23 с, газеты 27.5 с, тумблеры 34 с).",
+    "Нижняя камера режется на каждом цикле (7 резов) — ритм без пустот.",
+    "Слово-плашка меняется ~3 раза в секунду — глаз держится у стыка, где видно и экран, и лицо.",
+    "CTA 36–41.6 с на понятной карточке Follow + Comment с анимацией клика — низкий порог, ключевое слово «effects» = лид-магнит."
+  ],
+  "cta": {
+    "type": "follow+comment_keyword",
+    "original_text": "Want the skill and all the commands? Follow me and comment \"effects\" and I'll send you the setup guide.",
+    "our_text": "Хочешь этот скилл и все команды? Подписывайся на меня и напиши в комментариях «ИИ». На экране: карточка @paveldumbrao (Подписаться → Вы подписаны), в поле комментария печатается «ИИ»; пилюля «Подпишись на @paveldumbrao и напиши «ИИ»»."
+  },
+  "remake_plan": {
+    "route": "openmotion+avatar",
+    "segments_map": "Низ (8 планов по циклам) — 8 клипов Yiciyuang omni-fast-no-water 10 с (1280×720) от ключевых кадров Nano Banana 2.1 (ракурсы A/B Павла с подкаст-микрофоном дома, чередуются как в оригинале), окно речи [2–N с], голова клипа 2 с отрезается; звук всех клипов склеен в одну дорожку → ElevenLabs STS в PVC Павла (монолитно), тайминги слов — Vibi STT. Верх — окно Claude Code (светлое) кодом в OpenMotion/HyperFrames; «загруженное видео» — отдельный клип Omni Павла (голубая рубашка, светлый кабинет, без микрофона, звук не используется); 7 эффектов (glass-widgets, orbit, spotlight, todo, timeline, match-cut, toggles) — HTML/GSAP поверх этого клипа. Слово-плашка и пилюли — общий слой по словам голоса. CTA — карточка @paveldumbrao.",
+    "est_cost_rub": 120,
+    "actual": {
+      "duration_s": 46.91,
+      "duration_vs_orig_pct": 12.8,
+      "omni_clips_ok": 13,
+      "omni_cost_cny": 9.75,
+      "openmotion_project": "5a13cce5-e95e-486f-b209-a8a339e0f17b",
+      "export_job": "0aadabcd-0795-4d27-b16e-6ca82a99ad0b"
+    }
+  }
+}
