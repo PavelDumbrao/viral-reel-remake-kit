@@ -1,0 +1,306 @@
+{
+ "source": {
+  "url": "https://www.instagram.com/p/DfebCCMx6Hl/",
+  "author": "aiminutes1",
+  "views": 164000,
+  "outlier_x": 84,
+  "duration_s": 53.57,
+  "language": "en",
+  "size": "540x960"
+ },
+ "people": {
+  "has_live_person": false,
+  "has_partial_person": false,
+  "has_animated_character": false,
+  "notes": "Людей нет. В хуке три карточки-телефона с примерами рилсов автора (мультяшные персонажи внутри примеров) — это контент-пруф, не ведущий. Курсор мыши рисованный."
+ },
+ "format": {
+  "layout": "full",
+  "split_ratio": "нет; вертикальная раскладка: метка шага y≈6%, заголовок y≈9% (1–2 строки), окно приложения y≈12–36% (до 48% в шаге 3), плашка-субтитр y≈79%, подпись бренда y≈83%, контурный силуэт города y≈86–100%",
+  "captions": "белая скруглённая плашка с мягкой тенью по центру на y≈79%, Inter/Helvetica Bold ~30px@540, слова фразы добавляются по одному в такт речи (1–3 слова на плашке), ключевое слово терракотой #D8573F, смена группы — мгновенная. Под плашкой мелкий моноширинный бренд «AI Minute» серым.",
+  "palette": [
+   "#E8DCC9 фон бежевый (радиальный градиент, центр светлее #F0E7DA)",
+   "#D8573F терракота (акцент, кнопки, прогресс)",
+   "#1C1918 окна (тёмный графит)",
+   "#121010 поле терминала",
+   "#3DD68C зелёный (галочки, Installed ✓)",
+   "#1A1614 текст заголовков",
+   "#FFFFFF плашки/карточки",
+   "#C9B9A4 контур города"
+  ],
+  "fonts": "заголовок — гротеск Black (Inter 900, трекинг −0.04em) ~44px@540, двухцветный (чёрный + терракота); метка шага «STEP N / 5» — моно 10px разрядка 0.3em терракотой; терминал — JetBrains Mono; UI окон — Inter 600",
+  "transitions": "между шагами — растворение с размытием и лёгким масштабом ~0,3–0,5 с; заголовок нового шага печатается по словам; элементы внутри окна появляются мягким fade+подъём; курсор ездит и кликает (кнопка сжимается)",
+  "pace": "9 смен сцены за 53,6 с (~10/мин), но внутри сцены событие каждые 0,5–1 с (клик, строка, чип, галочка) — кадр никогда не стоит"
+ },
+ "transcript": [
+  {
+   "start": 0,
+   "end": 3.04,
+   "text": "How to make AI animated reels like this."
+  },
+  {
+   "start": 3.04,
+   "end": 6.36,
+   "text": "Here's the five-step workflow with CloudCode."
+  },
+  {
+   "start": 6.36,
+   "end": 7.32,
+   "text": "Step 1."
+  },
+  {
+   "start": 7.32,
+   "end": 9.9,
+   "text": "Install the CloudCode desktop app."
+  },
+  {
+   "start": 9.9,
+   "end": 11.2,
+   "text": "Step 2."
+  },
+  {
+   "start": 11.2,
+   "end": 15.3,
+   "text": "Make a folder called AI Video and open it in CloudCode."
+  },
+  {
+   "start": 15.3,
+   "end": 16.64,
+   "text": "Step 3."
+  },
+  {
+   "start": 16.64,
+   "end": 18.16,
+   "text": "Install Hyperframes,"
+  },
+  {
+   "start": 18.16,
+   "end": 19.98,
+   "text": "a free open-source video skill from HeyGen."
+  },
+  {
+   "start": 21.39,
+   "end": 22.39,
+   "text": "One command."
+  },
+  {
+   "start": 22.39,
+   "end": 26.09,
+   "text": "You'll need Node and FFmpeg installed first."
+  },
+  {
+   "start": 26.09,
+   "end": 26.91,
+   "text": "Step 4."
+  },
+  {
+   "start": 26.91,
+   "end": 28.34,
+   "text": "Type one line."
+  },
+  {
+   "start": 28.34,
+   "end": 31.45,
+   "text": "Make a 30-second reel about your topic."
+  },
+  {
+   "start": 31.45,
+   "end": 32.36,
+   "text": "Step 5."
+  },
+  {
+   "start": 32.36,
+   "end": 34.05,
+   "text": "Claude writes the script,"
+  },
+  {
+   "start": 34.05,
+   "end": 36.38,
+   "text": "builds every scene in HTML,"
+  },
+  {
+   "start": 36.38,
+   "end": 37.31,
+   "text": "adds captions,"
+  },
+  {
+   "start": 37.31,
+   "end": 38.95,
+   "text": "and renders the video."
+  },
+  {
+   "start": 38.95,
+   "end": 39.89,
+   "text": "Don't like something?"
+  },
+  {
+   "start": 39.89,
+   "end": 41.25,
+   "text": "Tell it what to change,"
+  },
+  {
+   "start": 41.25,
+   "end": 41.86,
+   "text": "just like you'd tell an editor."
+  },
+  {
+   "start": 43,
+   "end": 44.18,
+   "text": "It draws shapes,"
+  },
+  {
+   "start": 44.18,
+   "end": 44.72,
+   "text": "text,"
+  },
+  {
+   "start": 44.72,
+   "end": 45.66,
+   "text": "and charts,"
+  },
+  {
+   "start": 45.66,
+   "end": 47.18,
+   "text": "not hand-drawn artwork."
+  },
+  {
+   "start": 47.18,
+   "end": 49.24,
+   "text": "So think motion graphics,"
+  },
+  {
+   "start": 49.24,
+   "end": 50.58,
+   "text": "not cartoons."
+  },
+  {
+   "start": 50.58,
+   "end": 51.5,
+   "text": "Comment reels,"
+  },
+  {
+   "start": 51.5,
+   "end": 53.44,
+   "text": "and I'll send you every detail."
+  }
+ ],
+ "hook": {
+  "start": 0.0,
+  "end": 3.04,
+  "original_text": "How to make AI animated reels like this.",
+  "ru_text": "Как делать анимированные Reels с ИИ — вот такие.",
+  "why_it_hooks": "Обещание результата + сразу показан сам результат (три живых примера в карточках с 1,5 с), заголовок-ответ «AI animated reels» стоит с 0-го кадра, плашка «5-step workflow» на 0,5 с задаёт ожидание короткой понятной инструкции."
+ },
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.2,
+   "shot_type": "motion_only",
+   "on_screen": "мелко «HOW TO MAKE», крупно «AI animated reels» (reels терракотой) с 0 с; на 0,5 с выпрыгивает терракотовая пилюля «5-step workflow»; на 1,5 с из точки вылетают три карточки-телефона с примерами рилсов (повёрнуты ±4°), подпись «AI ANIMATED REEL EXAMPLES»; примеры играют",
+   "text_on_screen": "HOW TO MAKE / AI animated reels / 5-step workflow / AI ANIMATED REEL EXAMPLES",
+   "speech": "How to make AI animated reels like this. Here's the five-step workflow with Claude Code.",
+   "camera": "статично",
+   "purpose": "хук"
+  },
+  {
+   "start": 6.2,
+   "end": 10.0,
+   "shot_type": "screen_capture",
+   "on_screen": "растворение с размытием; «STEP 1 / 5» «Install Claude Code»; тёмное окно «Claude Code» с карточкой приложения (терракотовая иконка-робот, desktop app, кнопка Download); курсор кликает Download (7,5 с), полоса загрузки 8–9 с, зелёная пилюля «Installed ✓» со свечением 9,0 с",
+   "text_on_screen": "STEP 1 / 5 · Install Claude Code · Download · Installed ✓",
+   "speech": "Step 1. Install the Claude Code desktop app.",
+   "camera": "статично",
+   "purpose": "шаг 1"
+  },
+  {
+   "start": 10.0,
+   "end": 15.4,
+   "shot_type": "screen_capture",
+   "on_screen": "«STEP 2 / 5» «Make a folder» печатается по словам; окно Files: Documents/Downloads/Desktop; на 11,5 с новая строка, печать «AI Video» 12–13 с, кнопка «Open in Claude Code» 13,5 с, клик 14,0, «Opened ✓» 14,5",
+   "text_on_screen": "STEP 2 / 5 · Make a folder · AI Video · Open in Claude Code · Opened ✓",
+   "speech": "Step 2. Make a folder called AI Video and open it in Claude Code.",
+   "camera": "статично",
+   "purpose": "шаг 2"
+  },
+  {
+   "start": 15.4,
+   "end": 25.8,
+   "shot_type": "screen_capture",
+   "on_screen": "«STEP 3 / 5» «Install HyperFrames»; окно Terminal: печать `npx skills add heygen-com/hyperframes` 16–19 с; белые чипы с зелёной точкой «free» 18,5, «open source» 19,0, «from HeyGen» 20,5; строки вывода ✓ 21,5–22; коричневая плашка «⚠ needs Node.js + FFmpeg first» 22,5; растворение 25,5",
+   "text_on_screen": "STEP 3 / 5 · Install HyperFrames · free · open source · from HeyGen · needs Node.js + FFmpeg first",
+   "speech": "Step 3. Install Hyperframes, a free open-source video skill from HeyGen. One command. You'll need Node and FFmpeg installed first.",
+   "camera": "статично",
+   "purpose": "шаг 3"
+  },
+  {
+   "start": 25.8,
+   "end": 31.2,
+   "shot_type": "screen_capture",
+   "on_screen": "«STEP 4 / 5» «Type one line»; пустое окно Claude Code; на 27 с вырастает терракотовый пузырь сообщения, печать «Make a 30-second reel about [your topic]» 28,5–30 с; растворение 31,0",
+   "text_on_screen": "STEP 4 / 5 · Type one line · Make a 30-second reel about [your topic]",
+   "speech": "Step 4. Type one line. Make a 30-second reel about your topic.",
+   "camera": "статично",
+   "purpose": "шаг 4"
+  },
+  {
+   "start": 31.2,
+   "end": 42.9,
+   "shot_type": "screen_capture",
+   "on_screen": "«STEP 5 / 5» «Claude builds it»; окно Claude Code: полоса прогресса; чек-лист появляется по словам: Script 32,5, Scenes in HTML 34–35, Captions 36,5, Render 37,5–38; справа превью-телефон (красный круг, зелёный прямоугольник, «your topic»); 39 с поле ввода, печать «make the title bigger» 40–41, «Updated ✓» 41,5, подпись в превью крупнеет",
+   "text_on_screen": "STEP 5 / 5 · Claude builds it · Script · Scenes in HTML · Captions · Render · make the title bigger · Updated ✓",
+   "speech": "Step 5. Claude writes the script, builds every scene in HTML, adds captions, and renders the video. Don't like something? Tell it what to change, just like you'd tell an editor.",
+   "camera": "статично",
+   "purpose": "шаг 5 + правка"
+  },
+  {
+   "start": 42.9,
+   "end": 50.5,
+   "shot_type": "motion_only",
+   "on_screen": "«GOOD TO KNOW» «Motion graphics, not cartoons» (2 строки); белая карточка IT CAN: ✓ Shapes 43, Text 44, Charts 45, Motion 45,5; карточка IT CAN'T 45,5: ✗ Hand-drawn art 46, ✗ Cartoon characters 46,5; «Think motion graphics.» 47,5",
+   "text_on_screen": "GOOD TO KNOW · Motion graphics, not cartoons · IT CAN / IT CAN'T · Think motion graphics.",
+   "speech": "It draws shapes, text, and charts, not hand-drawn artwork. So think motion graphics, not cartoons.",
+   "camera": "статично",
+   "purpose": "ограничение / доверие"
+  },
+  {
+   "start": 50.5,
+   "end": 53.57,
+   "shot_type": "motion_only",
+   "on_screen": "«✦ Comment» крупно; поле комментария с аватаром-роботом и кнопкой Post; печать «REELS» 51–51,5; курсор жмёт Post 52; терракотовая плашка «✓ every detail → your DMs» 52; подпись «I'll send you every detail.»",
+   "text_on_screen": "Comment · REELS · Post · every detail → your DMs",
+   "speech": "Comment reels, and I'll send you every detail.",
+   "camera": "статично",
+   "purpose": "CTA"
+  }
+ ],
+ "structure": [
+  "хук + пример результата",
+  "шаг 1 установить Claude Code",
+  "шаг 2 папка проекта",
+  "шаг 3 поставить HyperFrames",
+  "шаг 4 одна строка-запрос",
+  "шаг 5 Claude собирает + правка словами",
+  "что умеет / не умеет",
+  "CTA комментарий"
+ ],
+ "why_viral": [
+  "0–2 с: заголовок-обещание и живые примеры результата одновременно — зритель видит, что получит",
+  "0,5 с: «5-step workflow» — короткий конечный список, понятно сколько смотреть",
+  "6–43 с: каждый шаг — один глагол-заголовок + один интерфейс + одно действие (клик/печать/галочка), события каждые 0,5–1 с удерживают взгляд",
+  "16–25 с: конкретная команда в терминале и предупреждение про Node/FFmpeg — ощущение настоящей инструкции, сохраняют",
+  "39–42 с: «скажи, что поменять, как монтажёру» снимает страх «не умею монтировать»",
+  "43–50 с: честное «что не умеет» повышает доверие и отсекает разочарование",
+  "50–53 с: CTA-ключевое слово, печатаемое в поле комментария, — повторяемое действие и рост комментариев",
+  "весь ролик: тёплый бежевый фон и единая типографика выделяют ролик в ленте среди тёмных AI-роликов"
+ ],
+ "cta": {
+  "type": "comment_keyword",
+  "original_text": "Comment reels, and I'll send you every detail.",
+  "our_text": "Напиши в комментариях «ИИ» — и я пришлю тебе всю инструкцию. И подписывайся на меня — дальше будет ещё интереснее. (экран: карточка @paveldumbrao)"
+ },
+ "remake_plan": {
+  "route": "openmotion",
+  "segments_map": "все сегменты — OpenMotion кодом (HTML/GSAP), стиль 1:1: бежевый фон, терракота, тёмные окна, плашка-субтитр. Хук: три карточки-телефона с НАШИМИ реальными роликами из OpenMotion (B «Это видео — код», CT мультик Павла, C «Сколько стоит минута») как <video> в корне. Шаги 1–5: окна пересобраны кодом с нашими данными (папка «Ролики», `npm i -g hyperframes`, запрос по-русски, чек-лист с голосом). «Что умеет/не умеет» — по нашему опыту (персонажа рисует генератор картинок). CTA — слово «ИИ». Бренд внизу — «Хардкодинг PRO». Голос Павла ElevenLabs PVC, тайминги всех событий из words.json голоса.",
+  "est_cost_rub": 15
+ }
+}

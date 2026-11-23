@@ -1,0 +1,408 @@
+{
+ "source": {
+  "url": "https://www.instagram.com/p/DfKFK7RJdjl/",
+  "author": "mrcreates.ai",
+  "views": 1420000,
+  "outlier_x": 943,
+  "duration_s": 83.6,
+  "language": "en",
+  "size": "540x960"
+ },
+ "people": {
+  "has_live_person": false,
+  "has_partial_person": false,
+  "has_animated_character": true,
+  "notes": "Нарисованная ч/б голова автора (очки, кудри, лайн-арт). Говорит только в кадре-хуке; дальше — маленький аватар-узел на таймлайне, кадр REC, карточка THE HOOK, крупно между панелями в выводе, в CTA и в карточке профиля."
+ },
+ "format": {
+  "layout": "full",
+  "split_ratio": "",
+  "captions": "Сверху по центру (y≈290 из 1920), sans (Inter-подобный) ~46 px, слова появляются по одному: прошлые серые #6B6B6B, текущее чёрное; ключевые слова — курсив с засечками (Instrument Serif-подобный) или жирный sans в голубой рамке-выделении (#E9EFFC, тонкая синяя обводка, маленькие квадратные маркеры по углам как у выделения в редакторе); смена фразы — расфокус/размытие",
+  "palette": [
+   "#FBFBFC",
+   "#EEF0F4",
+   "#2F66E8",
+   "#111111",
+   "#6B6B6B",
+   "#D97757",
+   "#E7D9BF",
+   "#E5484D",
+   "#22A55B"
+  ],
+  "fonts": "Sans (Inter-подобный) для UI и титров, курсив с засечками для акцентов, моно для кода/путей",
+  "transitions": "Вертикальный таймлайн: при смене шага синяя линия растёт вниз, появляется новый узел, аватар съезжает по пунктиру, контент уходит размытием/скроллом вверх; карточки pop-in снизу со scale 0.96→1; смены фраз титров — blur",
+  "pace": "≈26 смен состояния кадра в минуту (новый шаг каждые 4–6 с, внутри шага 2–4 под-анимации)"
+ },
+ "transcript": [
+  {
+   "start": 0.08,
+   "end": 4.44,
+   "text": "Everyone is editing videos with Claude now, but most people lock the setup behind a course."
+  },
+  {
+   "start": 4.44,
+   "end": 7,
+   "text": "Give me 60 seconds and I will show you the whole thing."
+  },
+  {
+   "start": 7,
+   "end": 11.6,
+   "text": "First, download the Claude desktop app and open Claude code there, not in the browser."
+  },
+  {
+   "start": 11.6,
+   "end": 14.92,
+   "text": "Then, create a folder on your computer called AI Video Editor."
+  },
+  {
+   "start": 14.92,
+   "end": 16.8,
+   "text": "Inside it, add three subfolders:"
+  },
+  {
+   "start": 16.8,
+   "end": 19.12,
+   "text": "raw footage, references, and exports."
+  },
+  {
+   "start": 19.12,
+   "end": 22.5,
+   "text": "Start a new Claude code chat, choose local, and select that folder."
+  },
+  {
+   "start": 22.5,
+   "end": 23.98,
+   "text": "Now Claude can see and use your files."
+  },
+  {
+   "start": 24.5,
+   "end": 27.32,
+   "text": "Next, Claude needs tools to actually edit."
+  },
+  {
+   "start": 27.32,
+   "end": 28.12,
+   "text": "You need five."
+  },
+  {
+   "start": 28.12,
+   "end": 31.26,
+   "text": "ReMotion and Hyperframes build the video and the motion graphics."
+  },
+  {
+   "start": 31.26,
+   "end": 33.48,
+   "text": "FFmpeg handles cutting and exporting."
+  },
+  {
+   "start": 33.48,
+   "end": 35.1,
+   "text": "Whisper creates the captions."
+  },
+  {
+   "start": 35.1,
+   "end": 37.62,
+   "text": "And YTDLP downloads your reference videos."
+  },
+  {
+   "start": 37.62,
+   "end": 39.66,
+   "text": "You do not install anything yourself."
+  },
+  {
+   "start": 39.66,
+   "end": 40.84,
+   "text": "Just paste this prompt."
+  },
+  {
+   "start": 40.84,
+   "end": 43.66,
+   "text": "Now Claude can edit, but it does not know your taste yet."
+  },
+  {
+   "start": 43.66,
+   "end": 47.6,
+   "text": "Pick three to five videos with the style you want and paste the links into this prompt."
+  },
+  {
+   "start": 47.6,
+   "end": 52.14,
+   "text": "The most important line is the one that says to make it inspired by them, not a copy."
+  },
+  {
+   "start": 52.14,
+   "end": 54.8,
+   "text": "That is what keeps your edits from looking like everyone else's."
+  },
+  {
+   "start": 54.8,
+   "end": 55.38,
+   "text": "Last step:"
+  },
+  {
+   "start": 55.38,
+   "end": 59.12,
+   "text": "Film like you normally do and drop the raw file into your raw footage folder."
+  },
+  {
+   "start": 59.12,
+   "end": 60.48,
+   "text": "Then use this prompt:"
+  },
+  {
+   "start": 60.48,
+   "end": 64.75,
+   "text": "Claude cuts the dead air, adds captions and music, and lays everything out for your review."
+  },
+  {
+   "start": 64.75,
+   "end": 72.75,
+   "text": "If something feels off, just say it in plain words like \"Make the hook bigger\" and it fits That is the full workflow, from an empty folder to a finished reel."
+  },
+  {
+   "start": 72.75,
+   "end": 75.45,
+   "text": "The tools do the cutting, but your taste does the rest."
+  },
+  {
+   "start": 75.45,
+   "end": 77.93,
+   "text": "Comment Editor and I will send you all three prompts."
+  },
+  {
+   "start": 77.93,
+   "end": 81.27,
+   "text": "And follow along, because next I will show you my own editing style."
+  }
+ ],
+ "hook": {
+  "start": 0.0,
+  "end": 7.0,
+  "original_text": "Everyone is editing videos with Claude now, but most people lock the setup behind a course. Give me 60 seconds and I will show you the whole thing.",
+  "ru_text": "Сейчас все монтируют видео с Claude, но большинство прячет настройку за платным курсом. Дай мне 60 секунд — и я покажу всё целиком.",
+  "why_it_hooks": "Соцдоказательство «все уже делают» + враг (платный курс $497 за то, что можно бесплатно) + конкретное обещание с таймером (60 секунд) + живой счётчик LIVE; визуально — дружелюбный персонаж и чек-аут с ценой, которая краснеет."
+ },
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.5,
+   "shot_type": "animated_character",
+   "on_screen": "Белый фон, крупная ч/б нарисованная голова автора (очки, кудри) по центру ~y 0.45; сверху плашка LIVE со счётчиком 1,284,269 editing with Claude (цифры тикают); рот/выражение меняются",
+   "text_on_screen": "Everyone is editing videos with Claude now; LIVE 1,284,269 editing with",
+   "speech": "Everyone is editing videos with Claude now,",
+   "camera": "статично, лёгкий bounce головы",
+   "purpose": "хук"
+  },
+  {
+   "start": 2.5,
+   "end": 5.5,
+   "shot_type": "motion_only",
+   "on_screen": "Голова уменьшается и уезжает в левый верх (маленький аватар), появляется белая карточка Checkout: AI Video Editing Course $497, бейдж 🔒 Setup locked, поля Email/Card, чёрная кнопка Pay $497; на «course» цена краснеет; на «60» в углу карточки вылетает синий круг-бейдж «60 seconds»",
+   "text_on_screen": "Checkout · AI Video Editing Course · $497.00 · Setup locked · Pay $497 · 60 seconds",
+   "speech": "but most people lock the setup behind a course. Give me 60 seconds",
+   "camera": "статично, pop-in",
+   "purpose": "хук"
+  },
+  {
+   "start": 5.5,
+   "end": 7.0,
+   "shot_type": "motion_only",
+   "on_screen": "Карточка рассыпается/улетает (осколки, чёрные куски кнопки разлетаются), появляется сетка-фон и синяя вертикальная линия-таймлайн слева, титул THE WHOLE SETUP · Empty folder → finished reel (вторая строка синим курсивом с засечками) · чипы 11 steps / 5 tools / 3 prompts / ~60s; аватар-узел едет вниз по линии",
+   "text_on_screen": "THE WHOLE SETUP · Empty folder → finished reel · 11 steps · 5 tools · 3 prompts · ~60 s",
+   "speech": "and I will show you the whole thing.",
+   "camera": "наезд/скролл вверх, размытие при смене",
+   "purpose": "хук→обзор"
+  },
+  {
+   "start": 7.0,
+   "end": 11.7,
+   "shot_type": "screen_capture",
+   "on_screen": "Шаг «Desktop app»: синяя пилюля шага рядом с аватаром на таймлайне; карточка приложения Claude (оранжевая звёздочка) GET → прогресс 19% → 78% → OPEN; ниже вкладки Chat/Cowork/Code, выбор Code, мини-терминал «Claude Code · ready · desktop app · local files: on»; плашка «claude.ai in a browser» зачёркнута с красным крестом",
+   "text_on_screen": "Claude · Desktop app · Anthropic · GET/OPEN · Chat · Cowork · Code · Claude Code ready · claude.ai in a browser",
+   "speech": "First, download the Claude desktop app and open Claude code there, not in the browser.",
+   "camera": "статично, элементы pop-in снизу",
+   "purpose": "шаг 1"
+  },
+  {
+   "start": 11.7,
+   "end": 19.0,
+   "shot_type": "screen_capture",
+   "on_screen": "Шаг «One folder»: синяя иконка папки «New folder» с подписью This computer; имя печатается: AI Video Editor; от папки рисуется дерево-скобка, по очереди появляются 3 подпапки с иконками ▶ Raw Footage, ★ References, ↓ Exports",
+   "text_on_screen": "This computer · AI Video Editor · Raw Footage · References · Exports",
+   "speech": "Then, create a folder on your computer called AI Video Editor. Inside it, add three subfolders: raw footage, references, and exports.",
+   "camera": "статично; переход — линия тянется вниз, аватар съезжает",
+   "purpose": "шаг 2"
+  },
+  {
+   "start": 19.0,
+   "end": 24.5,
+   "shot_type": "screen_capture",
+   "on_screen": "Шаг «Local chat»: карточка + New Claude Code chat; переключатель Cloud/Local → Local (синий); строка пути ~/Desktop/AI Video Editor с галкой; панель «Claude can see ✓read ✓write» с тремя папками",
+   "text_on_screen": "New Claude Code chat · Cloud · Local · ~/Desktop/AI Video Editor · Claude can see · read · write",
+   "speech": "Start a new Claude code chat, choose local, and select that folder. Now Claude can see and use your files.",
+   "camera": "статично",
+   "purpose": "шаг 3"
+  },
+  {
+   "start": 24.5,
+   "end": 37.5,
+   "shot_type": "motion_only",
+   "on_screen": "Шаг «Five tools»: в центре плитка Claude с бейджем 0/5 tools, вокруг пунктирная окружность; по очереди линиями подключаются плитки Remotion (сверху), HyperFrames (справа), FFmpeg (справа внизу), Whisper (слева внизу), yt-dlp (слева) с подписями функций; счётчик 1/5…5/5 зеленеет",
+   "text_on_screen": "Remotion · HyperFrames · FFmpeg · Whisper · yt-dlp · 0/5…5/5 tools · Builds the video · Motion graphics · Cuts + exports · Captions · Downloads references",
+   "speech": "Next, Claude needs tools to actually edit. You need five. ReMotion and Hyperframes build the video and the motion graphics. FFmpeg handles cutting and exporting. Whisper creates the captions. And YTDLP downloads your reference videos.",
+   "camera": "статично, линии рисуются",
+   "purpose": "шаг 4"
+  },
+  {
+   "start": 37.5,
+   "end": 41.0,
+   "shot_type": "motion_only",
+   "on_screen": "Шаг «One prompt»: чек-лист Manual setup checklist (5 пунктов Install X by hand), красный бейдж ✕ not needed; карточка PROMPT 01 Install everything влетает с наклоном; круг Claude «Running…» и ряд из 5 иконок инструментов",
+   "text_on_screen": "Manual setup checklist · not needed · PROMPT 01 Install everything · Running…",
+   "speech": "You do not install anything yourself. Just paste this prompt.",
+   "camera": "статично",
+   "purpose": "шаг 5"
+  },
+  {
+   "start": 41.0,
+   "end": 47.5,
+   "shot_type": "motion_only",
+   "on_screen": "Шаг «Your taste»: бежевая доска MY TASTE с плашкой «Taste: unknown?» (unknown курсивом); на доску прикалываются 5 полароидов с булавками и скотчем (картинки с персонажем); красные нити от фото к карточке PROMPT 02 Learn my taste · 0→2→5 links",
+   "text_on_screen": "MY TASTE · Taste: unknown? · PROMPT 02 Learn my taste · 5 links",
+   "speech": "Now Claude can edit, but it does not know your taste yet. Pick three to five videos with the style you want and paste the links into this prompt.",
+   "camera": "статично",
+   "purpose": "шаг 6"
+  },
+  {
+   "start": 47.5,
+   "end": 52.0,
+   "shot_type": "screen_capture",
+   "on_screen": "Шаг «The key line»: окно-редактор prompt-02.md (моно-шрифт, нумерация строк), строка 4 «Make it inspired by them, not a copy.» подсвечивается синим, остальные гаснут; затем дифф: красная «- make it a copy», зелёная «+ make it inspired by them»",
+   "text_on_screen": "prompt-02.md · Make it inspired by them, not a copy.",
+   "speech": "The most important line is the one that says to make it inspired by them, not a copy.",
+   "camera": "статично, курсор",
+   "purpose": "шаг 7"
+  },
+  {
+   "start": 52.0,
+   "end": 54.7,
+   "shot_type": "motion_only",
+   "on_screen": "Шаг «Stand out»: ряд одинаковых тёмных карточек-телефонов с жёлтыми плашками; лупа проезжает, одна карточка становится цветной, поднимается, подпись «yours»; остальные сереют",
+   "text_on_screen": "yours",
+   "speech": "That is what keeps your edits from looking like everyone else's.",
+   "camera": "статично",
+   "purpose": "шаг 8"
+  },
+  {
+   "start": 54.7,
+   "end": 60.3,
+   "shot_type": "animated_character",
+   "on_screen": "Шаг «Film & drop»: рамка камеры REC 00:55 с головой персонажа в круге (фокус-рамка); затем файл clip_001.mp4 падает в синюю папку Raw Footage; рядом карточка PROMPT 03 Edit · Cut dead air, add captions + music, lay it out for review",
+   "text_on_screen": "REC 00:55 · clip_001.mp4 · Raw Footage · PROMPT 03 Edit",
+   "speech": "Last step: Film like you normally do and drop the raw file into your raw footage folder. Then use this prompt:",
+   "camera": "статично",
+   "purpose": "шаг 9"
+  },
+  {
+   "start": 60.3,
+   "end": 64.5,
+   "shot_type": "motion_only",
+   "on_screen": "Шаг «Claude edits»: изометрический стек слоёв: кадр с персонажем, волна звука (вырезаются куски), дорожка субтитров Cut/Cap, синяя карточка музыки ♪; затем схлопывается в одну карточку «Ready for your review»",
+   "text_on_screen": "Ready for your review",
+   "speech": "Claude cuts the dead air, adds captions and music, and lays everything out for your review.",
+   "camera": "изометрия, слои разъезжаются",
+   "purpose": "шаг 10"
+  },
+  {
+   "start": 64.5,
+   "end": 69.0,
+   "shot_type": "animated_character",
+   "on_screen": "Шаг «Feedback»: карточка-телефон THE HOOK с персонажем; голосовое сообщение (волна) «make the hook bigger»; надпись THE HOOK увеличивается, плашка «Fixed. Hook +160% ✓»",
+   "text_on_screen": "THE HOOK · make the hook bigger · Fixed. Hook +160%",
+   "speech": "If something feels off, just say it in plain words like \"Make the hook bigger\" and it fits",
+   "camera": "статично",
+   "purpose": "шаг 11"
+  },
+  {
+   "start": 69.0,
+   "end": 72.5,
+   "shot_type": "motion_only",
+   "on_screen": "Итог: всё уезжает, вертикальный чек-лист из 13 пунктов (Start · empty folder, Desktop app … Feedback, Finished reel) заполняется синими галками сверху вниз, аватар едет по списку; в конце справа телефон с персонажем EDITOR + MOTION",
+   "text_on_screen": "Start · empty folder … Finished reel",
+   "speech": "That is the full workflow, from an empty folder to a finished reel.",
+   "camera": "наезд",
+   "purpose": "итог"
+  },
+  {
+   "start": 72.5,
+   "end": 75.5,
+   "shot_type": "animated_character",
+   "on_screen": "Две панели: TOOLS (иконки 5 инструментов) «do the cutting» и YOUR TASTE (Aa Aa, палитра точек, кривая) «does the rest»; крупная голова персонажа между панелями; панель вкуса выделяется синей рамкой",
+   "text_on_screen": "TOOLS do the cutting · YOUR TASTE does the rest",
+   "speech": "The tools do the cutting, but your taste does the rest.",
+   "camera": "статично",
+   "purpose": "вывод"
+  },
+  {
+   "start": 75.5,
+   "end": 78.0,
+   "shot_type": "animated_character",
+   "on_screen": "Фон снизу в голубой градиент со звёздочками; персонаж сверху; поле комментария Instagram, печатается ED…, ниже кнопки-клавиши E D I T O R; стрелка-самолётик улетает; уведомление «mrcreates.ai sent you all 3 prompts»",
+   "text_on_screen": "Comment \"EDITOR\" · sent you all 3 prompts",
+   "speech": "Comment Editor and I will send you all three prompts.",
+   "camera": "статично",
+   "purpose": "CTA"
+  },
+  {
+   "start": 78.0,
+   "end": 83.6,
+   "shot_type": "animated_character",
+   "on_screen": "Карточка профиля: аватар в градиентном кольце Instagram, @mrcreates.ai, статистика (posts/followers/following, счётчик растёт), кнопка Follow → курсор кликает → Following, бейдж +1 follower, карточка NEXT EPISODE · My editing style · Unlocked",
+   "text_on_screen": "@mrcreates.ai · Follow → Following · NEXT EPISODE My editing style",
+   "speech": "And follow along, because next I will show you my own editing style.",
+   "camera": "статично",
+   "purpose": "CTA подписка"
+  }
+ ],
+ "structure": [
+  "хук: все монтируют с Claude, а настройку продают курсом",
+  "обзор: пустая папка → готовый рилс (11 шагов, 5 инструментов, 3 промпта)",
+  "шаг 1: десктоп-приложение, вкладка Code",
+  "шаг 2: папка + 3 подпапки",
+  "шаг 3: локальный чат с этой папкой",
+  "шаг 4: 5 инструментов",
+  "шаг 5: один промпт ставит всё",
+  "шаг 6: вкус — 3–5 референсов во второй промпт",
+  "шаг 7: главная строчка «вдохновись, не копируй»",
+  "шаг 8: чтобы не как у всех",
+  "шаг 9: снял → кинул в папку → третий промпт",
+  "шаг 10: Claude режет, ставит титры, собирает черновик",
+  "шаг 11: правки простыми словами",
+  "итог: весь путь списком",
+  "вывод: инструменты режут, вкус решает",
+  "CTA: комментарий-слово → 3 промпта",
+  "CTA: подписка → следующий эпизод"
+ ],
+ "why_viral": [
+  "0–2.5 с: живой счётчик LIVE 1,284,269 + «все уже это делают» — FOMO с первой секунды",
+  "2.5–5 с: враг — чек-аут курса $497, цена краснеет на слове course; обещание бесплатной альтернативы",
+  "4.5–6 с: таймер-бейдж «60 seconds» — конкретное, короткое обещание",
+  "6–7 с: титул-оглавление (11 steps · 5 tools · 3 prompts) — зритель видит объём и остаётся до конца",
+  "7–69 с: вертикальный таймлайн с прогрессом и аватаром-узлом — ощущение пути, хочется дойти до финала",
+  "новый визуальный объект каждые ~2 с, ключевые слова подсвечены — нет мёртвых кадров",
+  "47–52 с: «inspired, not a copy» — инсайт, который сохраняют",
+  "69–72.5 с: чек-лист всего пути — повод сохранить ролик",
+  "75.5–78 с: лид-магнит (3 промпта) за слово в комментариях — алгоритмический буст комментариев",
+  "78–83 с: открытая петля «next: my editing style» — подписка"
+ ],
+ "cta": {
+  "type": "comment_keyword",
+  "original_text": "Comment Editor and I will send you all three prompts. And follow along, because next I will show you my own editing style.",
+  "our_text": "Напиши в комментариях «ИИ» — и я пришлю все три промпта. И подписывайся на меня: дальше покажу свой стиль монтажа. (на экране @paveldumbrao)"
+ },
+ "remake_plan": {
+  "route": "openmotion+character",
+  "segments_map": "Весь ролик — OpenMotion (HyperFrames) по эталону B: общий слой (сетка, таймлайн с аватаром-узлом, титры по словам голоса Павла), сцены по шагам кодом. Персонаж: ч/б лайн-арт голова Павла (Nano Banana 2.1 через Grsai по фото Павла + стиль оригинала как референс), 4 рта + моргание — подмена рта по таймингам букв/слов голоса в сегментах 0–2.5 (хук), REC-кадр, карточка THE HOOK, вывод, CTA, профиль. Ник и профиль → @paveldumbrao (решение Павла 23.11), слово CTA «ИИ».",
+  "est_cost_rub": 25
+ }
+}

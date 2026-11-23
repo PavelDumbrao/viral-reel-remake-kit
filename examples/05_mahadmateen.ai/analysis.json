@@ -1,0 +1,261 @@
+{
+  "source": {
+    "url": "https://www.instagram.com/p/DfsiQX9S5Jw/",
+    "author": "mahadmateen.ai",
+    "views": 114000,
+    "outlier_x": 63,
+    "duration_s": 27.2,
+    "language": "en",
+    "size": "540x960"
+  },
+  "people": {
+    "has_live_person": false,
+    "has_partial_person": false,
+    "has_animated_character": false,
+    "notes": "Людей нет совсем: только интерфейсы, скриншоты сайтов, кинетический текст. В CTA аватар автора 16 px в ответе на комментарий — заменяем логотипом Хардкодинг PRO."
+  },
+  "format": {
+    "layout": "full: окно браузера сверху (y≈12–46%), строка караоке-титров посередине (≈50%), нижняя панель — терминал/чек-лист/стена сайтов (≈54–94%); перебивки — жёлтый полноэкранный слайд",
+    "split_ratio": "нет (одна графическая зона, сетка верх/центр/низ)",
+    "captions": "по центру кадра между окном и панелью, 1–3 слова, Inter/SF Heavy ~70 px на 1080, произнесённое слово белое, следующие серые с размытием; ключевые слова — маркер-плашка: жёлтый #F4DF6E с чёрным текстом (Emil Kowalski, impeccable, rules, typography, animations, Taste, Figma, plain English, build), красный #E5484D с белым текстом (killed, generic)",
+    "palette": [
+      "#0A0C11",
+      "#111319",
+      "#262A33",
+      "#F4DF6E",
+      "#E5484D",
+      "#3DDC84",
+      "#7D8390",
+      "#F2F3F5",
+      "#2A2F6B"
+    ],
+    "fonts": "гротеск Heavy для титров и больших слов; моно для терминала, URL и плашек STEP; изящный серифный курсив для акцентов (Impeccable, curated sites, Thoughtful Design)",
+    "transitions": "жёсткие каты по словам; внутри окна — свайп-замена скриншота, вайп ДО/ПОСЛЕ; рамки окна и панели на склейках стоят на месте; два жёлтых слайда-перебивки с побуквенным влётом",
+    "pace": "≈26 смен содержимого в минуту по крупным сценам (12 сцен за 27 с) и смена картинки внутри сцены каждые 0,5–1 с"
+  },
+  "transcript": [
+    {
+      "start": 0.02,
+      "end": 4.6,
+      "text": "So Claude just killed web designers because it can now build websites that actually look professionally designed."
+    },
+    {
+      "start": 4.68,
+      "end": 5.0,
+      "text": "Here's how."
+    },
+    {
+      "start": 5.12,
+      "end": 8.3,
+      "text": "First, add the Emil Kowalski design and impeccable skills to Claude."
+    },
+    {
+      "start": 8.44,
+      "end": 11.7,
+      "text": "These give it rules for things like typography, spacing, layouts, and animations."
+    },
+    {
+      "start": 11.86,
+      "end": 16.1,
+      "text": "Then add the taste skill so it can reference great websites instead of giving you that generic AI look."
+    },
+    {
+      "start": 16.2,
+      "end": 21.7,
+      "text": "Finally, connect Figma MCP and Playwright so that Claude can actually design, build, and test and screenshot what it creates."
+    },
+    {
+      "start": 21.86,
+      "end": 25.2,
+      "text": "Now you can describe the website you want in plain English and then just let it handle the rest."
+    },
+    {
+      "start": 25.38,
+      "end": 27.2,
+      "text": "So comment die and I'll send you the full setup."
+    }
+  ],
+  "hook": {
+    "start": 0.0,
+    "end": 5.0,
+    "original_text": "So Claude just killed web designers because it can now build websites that actually look professionally designed. Here's how.",
+    "ru_text": "Итак, Claude только что убил веб-дизайнеров, потому что теперь он делает сайты, которые реально выглядят как профессиональный дизайн. Вот как.",
+    "why_it_hooks": "Провокация про профессию («убил веб-дизайнеров») + красная плашка на «killed» в 1-й секунде + сразу доказательство: в окне каждые 0,5 с меняется дорогой сайт, снизу стена из десятков сайтов. «Here's how» + жёлтый слайд «3 STEPS · 5 TOOLS» обещают короткий рецепт."
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.5,
+      "shot_type": "motion_only",
+      "on_screen": "окно браузера claude.ai: кремовый экран, печатается «Cl» с оранжевой звездой Claude; снизу 3D-стена скриншотов сайтов в 3 ряда",
+      "text_on_screen": "So,",
+      "speech": "So",
+      "camera": "статично, ряды стены едут",
+      "purpose": "хук"
+    },
+    {
+      "start": 0.5,
+      "end": 4.5,
+      "shot_type": "motion_only",
+      "on_screen": "в окне сменяются сайты каждые 0,5–1 с (Build beyond the cloud ×2, Next-Generation Data Infrastructure, One Platform, Cabin In The Woods); стена сайтов снизу едет",
+      "text_on_screen": "killed (красная плашка) web designers / because it / now build / that actually look / professionally (жёлтая)",
+      "speech": "just killed web designers because it can now build websites that actually look professionally designed",
+      "camera": "лёгкий наезд внутри скрина, свайп-замена",
+      "purpose": "хук"
+    },
+    {
+      "start": 4.5,
+      "end": 5.0,
+      "shot_type": "motion_only",
+      "on_screen": "жёлтый полноэкранный слайд, мелко «3 STEPS · 5 TOOLS», крупно побуквенно «HERE'S HOW»",
+      "text_on_screen": "3 STEPS · 5 TOOLS / HERE'S HOW",
+      "speech": "Here's how.",
+      "camera": "статично, буквы влетают",
+      "purpose": "перебивка"
+    },
+    {
+      "start": 5.0,
+      "end": 8.4,
+      "shot_type": "motion_only",
+      "on_screen": "окно: профиль x.com/emilkowalski с жёлтой рамкой выделения имени и плашкой emil-design-eng → сайт impeccable.style (серифный курсив); снизу терминал ~/my-site STEP 1/3: npx skills@latest add emilkowalski/skills --skill emil-design-eng ✓, npx impeccable install ✓, плашка «2 design skills added to Claude»",
+      "text_on_screen": "Emil Kowalski (жёлтая) / and Impeccable skills (жёлтая) / to Claude",
+      "speech": "First, add the Emil Kowalski design and impeccable skills to Claude.",
+      "camera": "статично, печать терминала",
+      "purpose": "шаг 1"
+    },
+    {
+      "start": 8.4,
+      "end": 11.9,
+      "shot_type": "motion_only",
+      "on_screen": "окно TYPOGRAPHY: BEFORE шаблонная карточка с красными тегами INTER FONT (AGAIN) / PURPLE GRADIENT / GENERIC COPY → вайп AFTER «Thoughtful Design»; SPACING·LAYOUT карточки; MOTION пилюля-остров Adjust/Mix; снизу чек-лист SKILL.md 0/4→4/4 Typography, Spacing, Layouts, Animations",
+      "text_on_screen": "These give / rules (жёлтая) for things / typography (жёлтая) / spacing / layouts, and / animations (жёлтая)",
+      "speech": "These give it rules for things like typography, spacing, layouts, and animations.",
+      "camera": "статично, вайп и галочки",
+      "purpose": "шаг 1 — польза"
+    },
+    {
+      "start": 11.9,
+      "end": 13.0,
+      "shot_type": "motion_only",
+      "on_screen": "окно github.com/Leonxlnx/taste-skill README «Taste Skill» выделение мышью + плашка design-taste-frontend; терминал STEP 2/3 npx skills add Leonxlnx/taste-skill ✓",
+      "text_on_screen": "Then add / Taste (жёлтая)",
+      "speech": "Then add the taste skill",
+      "camera": "статично",
+      "purpose": "шаг 2"
+    },
+    {
+      "start": 13.0,
+      "end": 14.3,
+      "shot_type": "motion_only",
+      "on_screen": "весь кадр: «TASTE SKILL REFERENCES», счётчик 55→225→247 curated sites, 3D-лента светлых сайтов с бирками REF 01–03, чёрная полоса под титры",
+      "text_on_screen": "55/225/247 curated sites / so / reference",
+      "speech": "so it can reference great websites",
+      "camera": "лента едет",
+      "purpose": "шаг 2 — доказательство"
+    },
+    {
+      "start": 14.3,
+      "end": 16.0,
+      "shot_type": "motion_only",
+      "on_screen": "весь кадр шаблонный сайт digital marketing скроллится, красный штамп «GENERIC · AI LOOK ✕»",
+      "text_on_screen": "instead of / that / generic (красная)",
+      "speech": "instead of giving you that generic AI look.",
+      "camera": "скролл вверх, удар штампа",
+      "purpose": "шаг 2 — контраст"
+    },
+    {
+      "start": 16.0,
+      "end": 16.5,
+      "shot_type": "motion_only",
+      "on_screen": "жёлтый слайд «03 LAST STEP», крупно побуквенно «FINALLY»",
+      "text_on_screen": "03 LAST STEP / FINALLY",
+      "speech": "Finally,",
+      "camera": "статично",
+      "purpose": "перебивка"
+    },
+    {
+      "start": 16.5,
+      "end": 18.4,
+      "shot_type": "motion_only",
+      "on_screen": "окно claude mcp list: иконки Figma MCP — Claude — Playwright, connecting→connected; терминал STEP 3/3 claude mcp add --transport http figma https://mcp.figma.com/mcp ✓, claude mcp add playwright npx @playwright/mcp@latest",
+      "text_on_screen": "connect Figma (жёлтая)",
+      "speech": "connect Figma MCP and Playwright",
+      "camera": "статично",
+      "purpose": "шаг 3"
+    },
+    {
+      "start": 18.4,
+      "end": 21.9,
+      "shot_type": "motion_only",
+      "on_screen": "окно CLAUDE · LIVE PREVIEW (код + сайт Martian Citizen, Venture Past Our Sky, вылет скриншота); снизу «CLAUDE CAN NOW…» огромные жёлтые слова design./build./test./screenshot. и 4 пилюли с галочками",
+      "text_on_screen": "so that Claude / actually / build (жёлтая), and / what it creates",
+      "speech": "so that Claude can actually design, build, and test and screenshot what it creates.",
+      "camera": "статично, смена слов",
+      "purpose": "шаг 3 — результат"
+    },
+    {
+      "start": 21.9,
+      "end": 24.0,
+      "shot_type": "motion_only",
+      "on_screen": "окно Claude Code (маскот), снизу поле YOUR PROMPT печатает «Build me a landing page», плашка PLAIN ENGLISH → WEBSITE",
+      "text_on_screen": "Now you can / the / in plain English (жёлтая)",
+      "speech": "Now you can describe the website you want in plain English",
+      "camera": "статично, печать",
+      "purpose": "итог"
+    },
+    {
+      "start": 24.0,
+      "end": 25.4,
+      "shot_type": "motion_only",
+      "on_screen": "браузер с сайтом маркетплейса собирается; панель «Claude working on your site» 4 пункта ✓ + WEBSITE READY",
+      "text_on_screen": "and then / let it handle",
+      "speech": "and then just let it handle the rest.",
+      "camera": "статично",
+      "purpose": "итог"
+    },
+    {
+      "start": 25.4,
+      "end": 27.2,
+      "shot_type": "motion_only",
+      "on_screen": "«COMMENT “DIE”» огромно жёлтым со свечением, наклонная карточка PDF The Full Setup, панель комментариев: печатается DIE, ответ автора «Sent! Check your DMs.» с вложением",
+      "text_on_screen": "COMMENT “DIE” / & I'll send you the…",
+      "speech": "So comment die and I'll send you the full setup.",
+      "camera": "статично",
+      "purpose": "CTA"
+    }
+  ],
+  "structure": [
+    "хук-провокация + стена сайтов",
+    "перебивка «Here's how» (3 шага · 5 инструментов)",
+    "шаг 1: два дизайн-скилла (терминал)",
+    "что дают: 4 правила (чек-лист, ДО/ПОСЛЕ)",
+    "шаг 2: taste skill",
+    "доказательство: сотни референсов",
+    "контраст: штамп «generic AI look»",
+    "перебивка «Finally»",
+    "шаг 3: 2 MCP (Figma + Playwright)",
+    "результат: Claude сам design/build/test/screenshot",
+    "итог: промпт обычными словами → сайт готов",
+    "CTA: слово в комментарии → PDF с настройкой"
+  ],
+  "why_viral": [
+    "0,5–1,1 с: красная плашка на «killed» и провокация про профессию — стоп-скролл",
+    "0–4,5 с: в окне каждые 0,5 с новый дорогой сайт + движущаяся стена сайтов — визуальное доказательство раньше объяснения",
+    "4,5 с: жёлтый слайд «3 STEPS · 5 TOOLS» — обещание короткого рецепта, хочется досмотреть",
+    "5–18 с: реальные команды установки в терминале — ощущение «можно повторить прямо сейчас», сохраняют",
+    "8,4–11,9 с: чек-лист 0/4→4/4 и ДО/ПОСЛЕ — прогресс-бар удерживает внимание",
+    "14,3–16 с: штамп GENERIC AI LOOK бьёт в боль зрителя (у всех ИИ-сайты одинаковые)",
+    "смена картинки каждые 0,5–1 с при 27 с длины — досматривают и пересматривают",
+    "25,4 с: CTA с лид-магнитом (Full Setup PDF) — комментарии поднимают охват"
+  ],
+  "cta": {
+    "type": "comment_keyword",
+    "original_text": "So comment die and I'll send you the full setup.",
+    "our_text": "Подписывайся на меня и напиши в комментариях «ИИ». (решение Павла 23.11: подписка @paveldumbrao + одно слово «ИИ» для всех роликов)"
+  },
+  "remake_plan": {
+    "route": "openmotion",
+    "segments_map": "все 12 сцен — OpenMotion кодом (HTML/GSAP), по сцене на шаблон tpl/sNN.html, тайминги из words.json голоса Павла; скриншоты сайтов — 9 собственных лендингов, свёрстанных под ролик и снятых headless Chrome на VPS (8 «дизайнерских» + 1 нарочно шаблонный); иконки и логотипы нарисованы SVG; карточка автора в CTA → карточка профиля @paveldumbrao с фото Павла, без цифр подписчиков; голос ElevenLabs PVC Павла",
+    "est_cost_rub": 30
+  }
+}
