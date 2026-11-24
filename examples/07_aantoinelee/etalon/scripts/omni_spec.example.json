@@ -1,0 +1,70 @@
+{
+ "model": "video_omni_flash_1.2",
+ "resolution": "1080",
+ "ratio": "2",
+ "assets": {
+  "W": "https://<ваш-хостинг>/master_W.jpg"
+ },
+ "tasks": {
+  "A2": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: На этой связке я веду уже шестой поток Хардкодинг про, а агенты пишут код за меня каждый день. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 9,
+   "line": "На этой связке я веду уже шестой поток Хардкодинг про, а агенты пишут код за меня каждый день."
+  },
+  "A3": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Номер один, параллельные сессии Клод Код. Несколько агентов рядом, у каждого своя задача, а тот, кто ждёт моего ответа, сразу подсвечен. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 10,
+   "line": "Номер один, параллельные сессии Клод Код. Несколько агентов рядом, у каждого своя задача, а тот, кто ждёт моего ответа, сразу подсвечен."
+  },
+  "A4": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Второй, Обсидиан как второй мозг. Агенты сами читают и пишут в него через эм си пи. Самое важное, у всех агентов во всех проектах один общий контекст. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 13,
+   "line": "Второй, Обсидиан как второй мозг. Агенты сами читают и пишут в него через эм си пи. Самое важное, у всех агентов во всех проектах один общий контекст."
+  },
+  "A5": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Третий, Плейрайт эм си пи. По сути, это глаза для агента: он сам открывает сайт, прокликивает его и проверяет, что всё работает как надо. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 12,
+   "line": "Третий, Плейрайт эм си пи. По сути, это глаза для агента: он сам открывает сайт, прокликивает его и проверяет, что всё работает как надо."
+  },
+  "A6": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Номер четыре, обязательно второй агент на ревью. Кодекс проверяет каждую правку Клода против всего проекта. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 8,
+   "line": "Номер четыре, обязательно второй агент на ревью. Кодекс проверяет каждую правку Клода против всего проекта."
+  },
+  "A7": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Номер пять, дизайн скиллы. Клод берёт приёмы лучших интерфейсов, видит, что у них работает, и переносит это в твой ю ай. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 10,
+   "line": "Номер пять, дизайн скиллы. Клод берёт приёмы лучших интерфейсов, видит, что у них работает, и переносит это в твой ю ай."
+  },
+  "A8": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Номер шесть, если не хочешь, чтобы сайт выглядел шаблонно, делай свою графику. Подключи Клода к Нано Банане или к Клингу. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 10,
+   "line": "Номер шесть, если не хочешь, чтобы сайт выглядел шаблонно, делай свою графику. Подключи Клода к Нано Банане или к Клингу."
+  },
+  "A9": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: И номер семь, запускай агентов в облаке, потому что всё, что выше, требует открытого ноутбука. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 8,
+   "line": "И номер семь, запускай агентов в облаке, потому что всё, что выше, требует открытого ноутбука."
+  },
+  "A10": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Клод Код спокойно работает без экрана на твоём ви пи эс, а пишешь ты ему прямо в Телеграм. Советую это для любой задачи, которую гоняешь регулярно. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 13,
+   "line": "Клод Код спокойно работает без экрана на твоём ви пи эс, а пишешь ты ему прямо в Телеграм. Советую это для любой задачи, которую гоняешь регулярно."
+  },
+  "A11": {
+   "prompt": "Use the image as the first frame. In a single continuous shot, no scene cuts, vertical 9:16, the camera remains static, no zoom. The man stays seated at the same wooden table in the same coffee shop by the window, same dark olive overshirt over a white t-shirt, same open laptop and latte, same framing and the same daylight. The man keeps his exact face from the photo: <2–3 главные черты>, and his teeth. He talks to the camera in Russian, confident, friendly and energetic, explaining with one hand in natural gestures at chest level on key words while the other hand rests on the table; small head movements and blinks. He speaks briskly, at a fast energetic pace. He says in Russian: Как настроить каждый, разберу в следующих роликах, так что подписывайся на меня. И напиши в комментариях И И, если хочешь полный гайд. He pronounces every word of the phrase, without skipping any word. He finishes the phrase before the clip ends, then closes his mouth and looks into the lens. Sound: his voice close to the microphone and quiet cafe room tone only. No music. No subtitles, no captions, no on-screen text, no logos. No new people appear.",
+   "images": "{W}",
+   "duration": 10,
+   "line": "Как настроить каждый, разберу в следующих роликах, так что подписывайся на меня. И напиши в комментариях И И, если хочешь полный гайд."
+  }
+ }
+}

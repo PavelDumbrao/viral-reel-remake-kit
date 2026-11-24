@@ -1,0 +1,18 @@
+Create a highly photorealistic vertical photograph of the man from the attached photographs.
+
+REFERENCE ROLES:
+Images 1-3 show the SAME adult man. They are the only authority for his face. Image 1 (close-up) is the most accurate.
+
+IDENTITY PRESERVATION (most important):
+Reproduce his face exactly as in image 1: <ОПИШИТЕ СВОИ ЧЕРТЫ: форма и ширина лица, щёки, челюсть, шея, возраст, глаза и веки, брови, лоб, нос, губы, причёска, борода. Пример: «a broad, wide face with full cheeks and a wide strong jaw, apparent age 38-40, deep-set grey-green eyes, short dark beard with grey hairs»>. Real skin texture with pores, natural asymmetry.
+Do NOT slim, narrow, lengthen or rejuvenate the face. Do NOT make him look like a model. The face width relative to the head must match image 1. The result must be the same person, not a similar-looking person.
+
+WARDROBE: a plain dark olive overshirt over a white t-shirt, no prints.
+SCENE: a cozy specialty coffee shop by a large window, daytime; he sits at a wooden table with an open laptop and a cup of coffee; warm interior, softly blurred people-free background.
+LIGHT: soft window daylight from the right, warm ambient fill.
+
+CAMERA AND COMPOSITION:
+Vertical 9:16, waist-up medium shot at eye level, 50mm lens at f/2.0, camera about 1.4 meters away. His head is BIG: about 28 percent of the frame width; top of the head about 7 percent below the top edge; frame ends at his waist. Both eyes tack sharp. He looks straight into the lens, calm friendly expression, mouth closed, about to speak, hands relaxed and visible at the bottom.
+
+REALISM:
+Natural skin tones, restrained grading, like a real phone-camera Reels shot by a good creator. No text, no logos, no neon, no brand marks on clothes. No spots or marks on the face that are not in image 1.

@@ -1,0 +1,96 @@
+<template>
+<style>@@KIT@@
+#s02-p{position:absolute;left:30px;top:140px;width:1020px;height:800px;border-radius:30px;overflow:hidden;
+  background:radial-gradient(circle at 50% 46%,#2A1E17 0%,#111216 46%,#0A0B0E 100%);border:2px solid #2C2E35}
+#s02-hd{position:absolute;left:0;right:0;top:22px;text-align:center;font:700 30px Inter,sans-serif;color:#E6E7EA;opacity:0}
+#s02-hd b{display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--green);margin-right:12px;vertical-align:2px;box-shadow:0 0 14px var(--green)}
+#s02-svg{position:absolute;left:0;top:0}
+.s02-ln{stroke:#4A4033;stroke-width:4;fill:none}
+.s02-pl{fill:var(--y);filter:drop-shadow(0 0 8px #F2F24A)}
+#s02-core{position:absolute;left:420px;top:318px;width:180px;height:180px;border-radius:44px;background:#fff;opacity:0;
+  box-shadow:0 0 0 10px rgba(217,119,87,.25),0 0 70px 20px rgba(217,119,87,.55)}
+#s02-core span{position:absolute;left:35px;top:35px;width:110px;height:110px;display:block}
+#s02-cl{position:absolute;left:375px;width:270px;top:508px;background:#0E0F13;border-radius:18px;padding:6px 0 8px;box-shadow:0 0 24px 10px #0E0F13;text-align:center;font:800 30px Inter,sans-serif;color:#fff;opacity:0}
+#s02-cl em{display:block;font:600 24px Inter,sans-serif;color:var(--claude);font-style:normal;margin-top:4px}
+.s02-c{position:absolute;width:300px;height:186px;border-radius:22px;background:#16181D;border:2px solid #2E3139;padding:16px 18px;box-sizing:border-box;opacity:0}
+.s02-h{display:flex;align-items:center;gap:12px;font:700 26px Inter,sans-serif;color:#fff;white-space:nowrap}
+.s02-h span{width:44px;height:44px;display:block;flex:none;background:#fff;border-radius:12px;padding:5px;box-sizing:border-box}
+.s02-r{font:500 22px Inter,sans-serif;color:#8B9099;margin:6px 0 0 56px}
+.s02-l{font:400 22px "JetBrains Mono",monospace;color:#C9CCD2;margin-top:12px;white-space:nowrap;height:28px}
+.s02-s{position:absolute;right:16px;bottom:14px;font:700 22px Inter,sans-serif;padding:4px 12px;border-radius:12px}
+.s02-w{color:#F2C14A;background:rgba(242,193,74,.12)}
+.s02-ok{color:var(--green);background:rgba(63,185,80,.14);opacity:0}
+#s02-ct{position:absolute;left:0;right:0;bottom:16px;text-align:center;font:600 28px Inter,sans-serif;color:#8B9099;opacity:0}
+#s02-ct b{color:var(--y);font:900 40px Inter,sans-serif;vertical-align:-3px;margin-left:8px}
+#s02-tag{position:absolute;left:0;width:1080px;top:70px;text-align:center;font:700 34px Inter,sans-serif;color:var(--y)}
+</style>
+<div id="@@SID@@-root" data-composition-id="@@SID@@" data-width="1080" data-height="1920">
+  <div class="k-top">
+    <div id="s02-tag">система автономных агентов</div>
+    <div id="s02-p">
+      <svg id="s02-svg" width="1020" height="800" viewBox="0 0 1020 800"></svg>
+      <div id="s02-hd"><b></b>6 агентов работают сами</div>
+      <div id="s02-core"><span data-icon="claude"></span></div>
+      <div id="s02-cl">Claude Code<em>сервер · 24/7</em></div>
+      <div id="s02-cards"></div>
+      <div id="s02-ct">без тебя сделано задач:<b id="s02-n">0</b></div>
+    </div>
+  </div>
+</div>
+<script>
+@@LIB@@
+const WORDS = @@WORDS@@; const D = @@DUR@@;
+const A = [
+  ["claude", "Claude Code", "пишет сайт", "+ landing.html", 20, 90],
+  ["claude", "Claude Code", "делает бота", "+ bot.py  120 стр.", 20, 320],
+  ["obsidian", "Obsidian", "общая память", "заметка обновлена", 20, 550],
+  ["codex", "Codex", "ревью кода", "проверено 14 файлов", 700, 90],
+  ["playwright", "Playwright", "тестирует сайт", "клик · клик · 12/12", 700, 320],
+  ["telegram", "Telegram", "отчёт тебе", "«задача сделана»", 700, 550],
+];
+const cards = document.getElementById("s02-cards"), svg = document.getElementById("s02-svg");
+const NS = "http://www.w3.org/2000/svg", CX = 510, CY = 408;
+A.forEach((a, k) => {
+  const [ic, name, role, log, x, y] = a;
+  cards.insertAdjacentHTML("beforeend",
+    `<div class="s02-c" id="s02-c${k}" style="left:${x}px;top:${y}px"><div class="s02-h"><span data-icon="${ic}"></span>${name}</div>` +
+    `<div class="s02-r">${role}</div><div class="s02-l" id="s02-l${k}"></div>` +
+    `<div class="s02-s s02-w" id="s02-w${k}">работает…</div><div class="s02-s s02-ok" id="s02-o${k}">✓ готово</div></div>`);
+  const ex = x < 500 ? x + 300 : x, ey = y + 93;
+  const ln = document.createElementNS(NS, "line");
+  ln.setAttribute("class", "s02-ln"); ln.setAttribute("x1", CX); ln.setAttribute("y1", CY); ln.setAttribute("x2", ex); ln.setAttribute("y2", ey);
+  const len = Math.hypot(ex - CX, ey - CY); ln.setAttribute("stroke-dasharray", len); ln.setAttribute("stroke-dashoffset", len); ln.id = "s02-ln" + k;
+  svg.appendChild(ln);
+  for (let j = 0; j < 2; j++) {
+    const c = document.createElementNS(NS, "circle"); c.setAttribute("class", "s02-pl"); c.setAttribute("r", 8);
+    c.setAttribute("cx", CX); c.setAttribute("cy", CY); c.setAttribute("opacity", 0); c.id = `s02-pl${k}_${j}`; svg.appendChild(c);
+  }
+});
+icons();
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s02-p", { scale: 0.97 }, { scale: 1, duration: 0.2, ease: "power2.out" }, 0);
+tl.set("#s02-hd", { opacity: 1 }, 0);
+tl.fromTo("#s02-core", { opacity: 1, scale: 0.7 }, { scale: 1, duration: 0.16, ease: "back.out(2.2)" }, 0);
+tl.set("#s02-cl", { opacity: 1 }, 0);
+tl.to("#s02-core", { boxShadow: "0 0 0 14px rgba(217,119,87,.18),0 0 110px 34px rgba(217,119,87,.75)", duration: 0.35, yoyo: true, repeat: 5, ease: "sine.inOut" }, 0.3);
+A.forEach((a, k) => {
+  const ex = a[4] < 500 ? a[4] + 300 : a[4], ey = a[5] + 93, t0 = k * 0.035;
+  tl.to("#s02-ln" + k, { attr: { "stroke-dashoffset": 0 }, duration: 0.25, ease: "power2.out" }, t0);
+  pop(tl, "#s02-c" + k, t0 + 0.03, 0.8);
+  typeText(tl, "#s02-l" + k, a[3], t0 + 0.22, 40);
+  for (let j = 0; j < 2; j++) {
+    const st = t0 + 0.18 + j * 0.28 + (k % 3) * 0.07;
+    tl.set(`#s02-pl${k}_${j}`, { attr: { cx: CX, cy: CY, opacity: 1 } }, st);
+    tl.to(`#s02-pl${k}_${j}`, { attr: { cx: ex, cy: ey }, duration: 0.42, ease: "none", repeat: 2, repeatDelay: 0.14 }, st);
+  }
+  const done = 0.75 + [0, 3, 5, 1, 4, 2][k] * 0.17;
+  hide(tl, "#s02-w" + k, done, 0.05);
+  pop(tl, "#s02-o" + k, done + 0.02, 0.6);
+  tl.to("#s02-c" + k, { borderColor: "#3FB950", duration: 0.15 }, done);
+});
+tl.set("#s02-ct", { opacity: 1 }, 0.15);
+const cnt = { n: 0 }, el = document.getElementById("s02-n");
+tl.to(cnt, { n: 37, duration: 1.9, ease: "power1.in", onUpdate: () => { el.textContent = Math.round(cnt.n); } }, 0.2);
+window.__timelines = window.__timelines || {}; window.__timelines["@@SID@@"] = tl;
+</script>
+</template>

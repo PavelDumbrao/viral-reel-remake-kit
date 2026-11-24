@@ -1,0 +1,31 @@
+/* kit.css — ролик 07 v3. Кадр 1080x1920.
+   Раскладки: SP (сплит) — верх 0–1110 чёрный, экран рисует сцена в зоне y 150–930; титры y≈985; низ 1110–1920 — Павел (видео корня).
+   FW/FC (Павел на весь кадр) — сцена рисует только акценты: над головой y 120–440 (FW) / 110–330 (FC), по бокам головы x<300 или x>780 на y 450–800;
+   титры на груди y≈1180. SC/MO (экран или моушн на весь кадр) — сцена рисует весь кадр сама (фон тоже). */
+:root{--y:#F2F24A;--bg:#000;--w:#fff;--g:#8B9099;--g2:#5C6270;--win:#141519;--bar:#1E1F24;--line:#2C2E35;--green:#3FB950;--red:#F85149;
+ --claude:#D97757;--purple:#8B6CFF;--blue:#3B82F6;--tg:#2AABEE;--paper:#FAFAF7;--ink:#1C1D21}
+.k-top{position:absolute;left:0;top:0;width:1080px;height:1110px;background:#000;overflow:hidden}
+.k-full{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+/* окно приложения (тёмное) */
+.k-win{position:absolute;background:var(--win);border:2px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.7)}
+.k-win.light{background:var(--paper);border-color:#E3E3DE}
+.k-bar{position:relative;height:54px;background:var(--bar);display:flex;align-items:center;padding:0 20px;gap:11px;font:600 26px Inter,sans-serif;color:#9AA0A8;white-space:nowrap;border-bottom:2px solid var(--line)}
+.k-win.light .k-bar{background:#EFEFEA;border-color:#E0E0DA;color:#55575E}
+.k-dot{width:16px;height:16px;border-radius:50%;flex:none}.k-d1{background:#FF5F57}.k-d2{background:#FEBC2E}.k-d3{background:#28C840}
+.k-mono{font-family:'JetBrains Mono',monospace}
+.k-sans{font-family:Inter,sans-serif}
+/* крупный акцент оригинала: жёлтый курсив с засечками */
+.k-acc{position:absolute;font-family:'Playfair Display',serif;font-weight:900;font-style:italic;color:var(--y);line-height:1;letter-spacing:-.01em;
+ text-shadow:0 6px 34px rgba(0,0,0,.45),0 2px 4px rgba(0,0,0,.3);white-space:nowrap}
+/* белая подпись над акцентом */
+.k-lbl{position:absolute;font:600 44px/1.1 Inter,sans-serif;color:#fff;text-shadow:0 3px 18px rgba(0,0,0,.8);white-space:nowrap}
+/* плашка приложения (белая, скругление, подпись снизу) */
+.k-app{position:absolute;width:140px;height:140px;border-radius:34px;background:#fff;box-shadow:0 14px 44px rgba(0,0,0,.45)}
+.k-app svg{position:absolute;left:20px;top:20px;width:100px;height:100px}
+.k-app .k-appname{position:absolute;top:150px;left:-90px;right:-90px;text-align:center;font:600 28px Inter,sans-serif;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.9);white-space:nowrap}
+/* жёлтая рамка-выделение (рисуется по слову) и стрелка */
+.k-ring{position:absolute;border:6px solid var(--y);border-radius:18px;box-shadow:0 0 24px rgba(242,242,74,.35)}
+.k-chip{position:absolute;padding:12px 24px;border-radius:999px;background:#1F2128;border:2px solid #34363E;font:600 28px Inter,sans-serif;color:#fff;white-space:nowrap}
+.k-chip.y{background:var(--y);border-color:var(--y);color:#111}
+.k-cursor{position:absolute;width:56px;height:56px;z-index:20}
+.k-yl{color:var(--y)}

@@ -37,13 +37,15 @@ AGENTS.md                       инструкция агенту: устано�
 skills/viral-reel-remake/       сам скилл
 docs/contract.md                правила ремейка, типы кадра, схема analysis.json
 docs/lessons.md                 грабли и приёмы из 9 ремейков
+docs/etalon-avatar.md           эталон ролика с живым аватаром: порядок и почему лицо живое
 guides/tools.md                 все инструменты и репозитории со ссылками
 scripts/download.sh             скачать образец (yt-dlp, для Instagram — с куками браузера)
 scripts/stt_words.py            речь → слова с таймингами (ElevenLabs Scribe v2)
 scripts/frames_05s.py           листы кадров каждые 0,5 с со словами
 scripts/fix_phrase.py           вклеить новый дубль фразы вместо испорченной (ударение, оговорка)
 scripts/timbre_match.py         выровнять тембр куска голоса под весь ролик
-examples/                       9 настоящих разборов: analysis.json и оба сценария
+examples/                       9 эталонов: analysis.json, оба сценария, рецепт каждого в README.md
+examples/07_aantoinelee/etalon/ раскадровка, промпты, сцены хука и скрипты ролика с аватаром
 ```
 
 ## Важно

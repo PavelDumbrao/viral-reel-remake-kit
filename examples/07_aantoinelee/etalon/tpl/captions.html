@@ -1,0 +1,29 @@
+<template>
+  <style>
+    @@KIT@@
+    .cg{position:absolute;left:30px;width:1020px;height:100px}
+    .gi{position:absolute;left:0;right:0;top:0;text-align:center;white-space:nowrap;font:600 52px/100px Inter,sans-serif;letter-spacing:-.01em;opacity:0}
+    .cw{display:inline-block;color:rgba(255,255,255,.4);text-shadow:0 3px 16px rgba(0,0,0,.9),0 1px 3px rgba(0,0,0,.7)}
+  </style>
+  <div id="root" data-composition-id="captions" data-width="1080" data-height="1920">
+@@GROUPS@@
+  </div>
+  <script>
+    const G = @@GJSON@@;
+    document.querySelectorAll("#root .gi").forEach((el) => {
+      let fs = 52; el.style.fontSize = fs + "px";
+      while (el.scrollWidth > 1000 && fs > 36) { fs -= 2; el.style.fontSize = fs + "px"; }
+    });
+    const tl = gsap.timeline({ paused: true });
+    G.forEach((g) => {
+      const gi = "#" + g.id;
+      tl.fromTo(gi, { opacity: 0 }, { opacity: 1, duration: 0.06, ease: "none" }, g.start);
+      g.words.forEach((w) => {
+        tl.fromTo("#" + w.id, { color: "rgba(255,255,255,0.4)" },
+          { color: w.hot ? "#F2F24A" : "#FFFFFF", duration: 0.08, ease: "power2.out", immediateRender: false }, Math.max(g.start, w.s - 0.03));
+      });
+      tl.to(gi, { opacity: 0, duration: 0.06, ease: "none" }, g.end - 0.06);
+    });
+    window.__timelines["captions"] = tl;
+  </script>
+</template>

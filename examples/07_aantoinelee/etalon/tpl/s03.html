@@ -1,0 +1,19 @@
+<template>
+<style>@@KIT@@
+#s03-lbl{left:0;width:1080px;text-align:center;top:146px;opacity:0}
+#s03-acc{left:0;width:1080px;text-align:center;top:236px;font-size:100px;opacity:0}
+#s03-acc span{font-size:200px;vertical-align:-14px}
+</style>
+<div id="@@SID@@-root" data-composition-id="@@SID@@" data-width="1080" data-height="1920">
+  <div class="k-lbl" id="s03-lbl">вот</div>
+  <div class="k-acc" id="s03-acc"><span>7</span> инструментов</div>
+</div>
+<script>
+@@LIB@@
+const WORDS = @@WORDS@@; const D = @@DUR@@;
+const tl = gsap.timeline({ paused: true });
+fadeIn(tl, "#s03-lbl", at(14) - 0.05, 14, 0.2);
+pop(tl, "#s03-acc", at(15) - 0.05, 0.5);
+window.__timelines = window.__timelines || {}; window.__timelines["@@SID@@"] = tl;
+</script>
+</template>

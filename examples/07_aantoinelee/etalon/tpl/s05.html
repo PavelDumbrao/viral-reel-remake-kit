@@ -1,0 +1,16 @@
+<template>
+<style>@@KIT@@
+#s05-app{left:50%;top:230px;margin-left:-70px;opacity:0}
+</style>
+<div id="@@SID@@-root" data-composition-id="@@SID@@" data-width="1080" data-height="1920">
+  <div class="k-app" id="s05-app" data-icon="claude"><div class="k-appname">Claude Code</div></div>
+</div>
+<script>
+@@LIB@@
+const WORDS = @@WORDS@@; const D = @@DUR@@;
+icons();
+const tl = gsap.timeline({ paused: true });
+pop(tl, "#s05-app", at(24) - 0.05);
+window.__timelines = window.__timelines || {}; window.__timelines["@@SID@@"] = tl;
+</script>
+</template>
