@@ -25,7 +25,7 @@ def vr(x):
 ap = argparse.ArgumentParser(); ap.add_argument("track"); ap.add_argument("t0", type=float); ap.add_argument("t1", type=float); ap.add_argument("out")
 ap.add_argument("--ref", nargs=2, type=float)
 a = ap.parse_args()
-V = load(a.track); i0, i1 = int(a.t0 * SR), int(a.t1 * SR)
+V = load(a.track); i0, i1 = int(a.t0 * SR), min(int(a.t1 * SR), len(V))
 ref = V[int(a.ref[0] * SR):int(a.ref[1] * SR)] if a.ref else np.concatenate([V[:i0], V[i1:]])
 seg = V[i0:i1]; f = np.fft.rfftfreq(N, 1 / SR); ratio = ltas(ref) / np.maximum(ltas(seg), 1e-9); sm = np.ones_like(ratio)
 for i, fc in enumerate(f):
